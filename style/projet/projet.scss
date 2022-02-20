@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+    font-size: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+// variables
+$primary : rgb(245, 220, 237);
+$size-big : 2rem;
+$size-little : 0.9rem;
+
+// header
+header {
+    background-color: $primary;
+    height: 200px;
+    display: flex;
+    padding: 50px 15px 0;
+    .header-img {
+            width: 35%;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            img {
+                margin: 15px 0;
+                width: 70%;
+            }
+        }
+    .header-title {
+        display: flex;
+        flex-direction: column;
+        h1 {
+            font-size: $size-big;
+            font-weight: 400;
+            margin: 15px 0;
+        }
+        p {
+            margin-top: 0;
+            animation: appear 2000ms ease-in-out
+        }
+    }
+}
+
+@keyframes appear {
+   0% {
+       opacity: 0;
+   } 
+   100% {
+       opacity: 1;
+   } 
+}
+
+// main
+.project-description {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    &__img {
+        img {
+            width: 100%;
+        }
+    }
+}

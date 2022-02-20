@@ -1,0 +1,123 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 100%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+header {
+  background-color: #f5dced;
+  height: 350px;
+}
+
+header .main-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 80px;
+}
+
+header .main-title img {
+  width: 25%;
+}
+
+header .main-title h1 {
+  font-size: 2.8rem;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
+header .main-title p {
+  -webkit-animation: appear 2000ms ease-in-out;
+          animation: appear 2000ms ease-in-out;
+}
+
+@-webkit-keyframes appear {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes appear {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+main {
+  margin: 25px;
+}
+
+.link-project {
+  text-decoration: none;
+  color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.cart-project {
+  height: 350px;
+  width: 100%;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 0 15px 2px #6b6a6a;
+          box-shadow: 0 0 15px 2px #6b6a6a;
+}
+
+.cart-project__img {
+  position: relative;
+}
+
+.cart-project__img img {
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+
+.cart-project__img-comment p {
+  position: absolute;
+  top: 5px;
+  right: 25px;
+  background-color: #f5dced;
+  font-size: 0.9rem;
+  padding: 3px;
+  font-weight: bold;
+  border-radius: 3px;
+}
+
+.cart-project__txt {
+  padding: 0 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.cart-project__txt-title {
+  height: 25%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+/*# sourceMappingURL=main.css.map */

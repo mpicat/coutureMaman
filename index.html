@@ -9,8 +9,9 @@
     <meta name="description" content="Décourez mes projets tricots sur la toile !" />
     <link rel="icon" type="icon/x-icon" href="/img/favicon.png" />
     <link rel="stylesheet" href="style/normalize.css" />
-    <link rel="stylesheet" href="style/main.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/accueil/main.css" />
+    <link rel="stylesheet" media="screen and (min-width: 992px)" href="style/accueil/desktop.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"> 
     <script src="https://kit.fontawesome.com/fdfdfc919c.js" crossorigin="anonymous"></script>
 
     <!-- google analytics + google search console -->
@@ -18,11 +19,36 @@
 <body>
     <div class="main_wrapper">
         <header>
-            <h1><i class="fa-solid fa-page-caret-up"></i>La Tricoteuse</h1>
-            
+            <div class="main-title">
+                <img src="/img/favicon.png" alt="icone pelote de laine">
+                <h1>La Tricoteuse</h1>
+                <p>Découvrez mes différents projets de tricot...</p>
+            </div>
         </header>
         <main>
-            <img class="intro" src="https://drive.google.com/uc?id=12jCZRr9eaIekmllQKMLPxjFktsf40iSk" alt="Image de tricot">
+            <a href="#" class="link-project">
+                <div class="cart-project">
+                    <div class="cart-project__img">
+                        <img src="https://drive.google.com/uc?id=12jCZRr9eaIekmllQKMLPxjFktsf40iSk" alt="Image de tricot">
+                        <div class="cart-project__img-comment">
+                            <p>Tricot</p>
+                        </div>
+                    </div>
+                    <div class="cart-project__txt">
+                        <div class="cart-project__txt-title">
+                            <div class="cart-project__txt-title-name">
+                                <h2>Mon projet</h2>
+                            </div>
+                            <div class="cart-project__txt-title-number">
+                                <h2>Projet n°1</h2>
+                            </div>
+                        </div>
+                        <div class="cart-project__txt-explanation">
+                            <p>Commentaires sur ce projet</p>
+                        </div>
+                    </div>
+                </div>
+            </a>
         </main>
         <footer>
 
