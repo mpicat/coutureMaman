@@ -17,10 +17,7 @@ $size-little : 0.9rem;
     flex-direction: column;
     &__carroussel {
         position: relative;
-        img {
-            width: 100%;
-            vertical-align: middle;
-        }
+        padding-bottom: 25px;
     }
     h2 {
         text-align: center;
@@ -45,6 +42,15 @@ $size-little : 0.9rem;
 // carroussel
 .mySlides {
     display: none;
+    img {
+        width: 100%;
+        object-fit: contain;
+        vertical-align: middle;
+    }
+}
+
+.cursor {
+    cursor: pointer;
 }
 
 .next, .prev {
@@ -62,15 +68,6 @@ $size-little : 0.9rem;
     right: 15px;
 }
 
-.caption-text {
-    color: black;
-    font-size: 15px;
-    padding: 20px;
-    bottom: 8px;
-    width: 100%;
-    text-align: center;
-}
-
 .numbertext {
     color: #f2f2f2;
     background-color: #4e4e4ea9;
@@ -80,24 +77,13 @@ $size-little : 0.9rem;
     top: 0;
 }
 
-.dotsPack {
-    display: flex;
-    justify-content: center;
-    column-gap: 2%;
-
-}
-.dot {
-    cursor: pointer;
-    height: 15px;
-    width: 15px;
-    background-color: #bbb;
-    border-radius: 50%;
+.caption {
+    color: black;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    width: 100%;
     text-align: center;
-    transition: background-color 0.6s ease;
-}
-
-.active, .dot:hover {
-    background-color: #717171;
 }
 
 .fade {

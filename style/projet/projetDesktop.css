@@ -1,4 +1,11 @@
+.main_wrapper {
+  margin: 15px 0;
+}
+
 .project-description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
@@ -6,6 +13,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  width: 100%;
 }
 
 .project-description__carroussel {
@@ -16,5 +24,9 @@
 .project-description__txt {
   width: 60%;
   padding: 15px;
+}
+
+section {
+  padding-top: 100px;
 }
 /*# sourceMappingURL=projetDesktop.css.map */

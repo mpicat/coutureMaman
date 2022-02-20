@@ -64,6 +64,18 @@ header .main-title__links a img {
 
 main {
   margin: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  row-gap: 15px;
+}
+
+main a {
+  width: 100%;
 }
 
 .link-project {
@@ -78,8 +90,8 @@ main {
 }
 
 .cart-project {
-  height: 350px;
   width: 100%;
+  height: 250px;
   border-radius: 10px;
   -webkit-box-shadow: 0 0 15px 2px #6b6a6a;
           box-shadow: 0 0 15px 2px #6b6a6a;
@@ -94,7 +106,7 @@ main {
 }
 
 .cart-project img {
-  height: 60%;
+  height: 70%;
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 10px 10px 0 0;
@@ -104,9 +116,9 @@ main {
   position: absolute;
   top: 5px;
   right: 25px;
-  background-color: #f5dced;
+  background-color: #3bbe3b;
   font-size: 0.9rem;
-  padding: 3px;
+  padding: 5px;
   font-weight: bold;
   border-radius: 3px;
 }
@@ -120,7 +132,7 @@ main {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  height: 40%;
+  height: 30%;
 }
 
 .cart-project__txt-title {

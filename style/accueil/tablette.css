@@ -1,0 +1,35 @@
+header .main-title__img img {
+  width: 25%;
+}
+
+header .main-title__txt {
+  width: 40%;
+}
+
+header .main-title__txt h1 {
+  font-size: 2.2rem;
+}
+
+header .main-title__links a img {
+  width: 60px;
+  border-radius: 5px;
+}
+
+main {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-column-gap: 15px;
+          column-gap: 15px;
+}
+
+main a {
+  width: 30%;
+}
+/*# sourceMappingURL=tablette.css.map */

@@ -17,11 +17,7 @@
 
 .project-description__carroussel {
   position: relative;
-}
-
-.project-description__carroussel img {
-  width: 100%;
-  vertical-align: middle;
+  padding-bottom: 25px;
 }
 
 .project-description h2 {
@@ -51,6 +47,17 @@
   display: none;
 }
 
+.mySlides img {
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  vertical-align: middle;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
 .next, .prev {
   cursor: pointer;
   position: absolute;
@@ -66,15 +73,6 @@
   right: 15px;
 }
 
-.caption-text {
-  color: black;
-  font-size: 15px;
-  padding: 20px;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-}
-
 .numbertext {
   color: #f2f2f2;
   background-color: #4e4e4ea9;
@@ -84,30 +82,13 @@
   top: 0;
 }
 
-.dotsPack {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-column-gap: 2%;
-          column-gap: 2%;
-}
-
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  background-color: #bbb;
-  border-radius: 50%;
+.caption {
+  color: black;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  width: 100%;
   text-align: center;
-  -webkit-transition: background-color 0.6s ease;
-  transition: background-color 0.6s ease;
-}
-
-.active, .dot:hover {
-  background-color: #717171;
 }
 
 .fade {

@@ -1,0 +1,32 @@
+// variables
+$size-very-big : 2.2rem;
+
+// Header
+header {
+    .main-title {
+        &__img img {
+            width: 25%;
+        }
+        &__txt {
+            width: 40%;
+            h1 {
+                font-size: $size-very-big;
+            }
+        }
+        &__links a img {
+            width: 60px;
+            border-radius: 5px;
+        }
+    }
+}
+
+// main
+main {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 15px;
+    a {
+        width: 30%;
+    }
+}
