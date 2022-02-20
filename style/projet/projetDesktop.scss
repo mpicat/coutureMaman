@@ -27,3 +27,17 @@ header {
         }
     }
 }
+
+// main
+.project-description {
+    flex-direction: row;
+    align-items: center;
+    &__carroussel {
+        width: 40%;
+        padding: 0 15px;
+    }
+    &__txt{
+        width: 60%;
+        padding: 15px;
+    }
+}

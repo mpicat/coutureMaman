@@ -32,4 +32,24 @@ header .header-title p {
   -webkit-animation: appear 2000ms ease-in-out;
           animation: appear 2000ms ease-in-out;
 }
+
+.project-description {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.project-description__carroussel {
+  width: 40%;
+  padding: 0 15px;
+}
+
+.project-description__txt {
+  width: 60%;
+  padding: 15px;
+}
 /*# sourceMappingURL=projetDesktop.css.map */

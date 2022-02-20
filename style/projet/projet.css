@@ -11,7 +11,7 @@ header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 50px 15px 0;
+  padding: 0 15px 0;
 }
 
 header .header-img {
@@ -22,14 +22,14 @@ header .header-img {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 header .header-img img {
   margin: 15px 0;
-  width: 70%;
+  width: 55%;
 }
 
 header .header-title {
@@ -40,6 +40,9 @@ header .header-title {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 header .header-title h1 {
@@ -80,10 +83,145 @@ header .header-title p {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+.project-description__carroussel {
+  position: relative;
+}
+
+.project-description__carroussel img {
+  width: 100%;
+  vertical-align: middle;
+}
+
+.project-description h2 {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.project-description span {
+  font-weight: 550;
+}
+
+.project-description__txt-data {
+  background-color: #f5dced;
   padding: 15px;
 }
 
-.project-description__img img {
+.project-description__txt-material {
+  padding: 15px;
+}
+
+.project-description__txt-document {
+  background-color: #f5dced;
+  padding: 15px;
+}
+
+.mySlides {
+  display: none;
+}
+
+.next, .prev {
+  cursor: pointer;
+  position: absolute;
+  top: 35%;
+  width: auto;
+  padding: 0 20px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.next {
+  right: 15px;
+}
+
+.caption-text {
+  color: black;
+  font-size: 15px;
+  padding: 20px;
+  bottom: 8px;
   width: 100%;
+  text-align: center;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  background-color: #4e4e4ea9;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dotsPack {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-column-gap: 2%;
+          column-gap: 2%;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  background-color: #bbb;
+  border-radius: 50%;
+  text-align: center;
+  -webkit-transition: background-color 0.6s ease;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  -webkit-animation: fade 1500ms;
+          animation: fade 1500ms;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: .4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: .4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 30px;
+}
+
+footer a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: medium;
+  padding: 15px;
+  color: black;
+}
+
+footer a:hover {
+  background-color: #f5dced;
 }
 /*# sourceMappingURL=projet.css.map */

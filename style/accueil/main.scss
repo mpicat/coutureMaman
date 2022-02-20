@@ -13,7 +13,7 @@ $size-little : 0.9rem;
 // header
 header {
     background-color: $primary;
-    height: 350px;
+    height: 450px;
     .main-title {
         display: flex;
         flex-direction: column;
@@ -58,13 +58,15 @@ main {
     width: 100%;
     border-radius: 10px;
     box-shadow: 0 0 15px 2px rgb(107, 106, 106);
-    &__img {
-        position: relative;
+    position: relative;
+    display: flex;
+    flex-direction: column;
         img {
-        width: 100%;
-        border-radius: 10px 10px 0 0;
+            height: 60%;
+            object-fit: cover;
+            border-radius: 10px 10px 0 0;
         }
-        &-comment p {
+        &__comment {
             position: absolute;
             top: 5px;
             right: 25px;
@@ -74,11 +76,11 @@ main {
             font-weight: bold;
             border-radius: 3px;
         }
-    }
     &__txt {
         padding: 0 15px;
         display: flex;
         flex-direction: column;
+        height: 40%;
         &-title {
             height: 25%;
             display: flex;

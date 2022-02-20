@@ -8,6 +8,7 @@
 // variables
 $primary : rgb(245, 220, 237);
 $size-big : 2rem;
+$size-medium : 1.5rem;
 $size-little : 0.9rem;
 
 // header
@@ -15,20 +16,21 @@ header {
     background-color: $primary;
     height: 200px;
     display: flex;
-    padding: 50px 15px 0;
+    padding: 0 15px 0;
     .header-img {
             width: 35%;
             display: flex;
             justify-content: center;
-            align-items: flex-start;
+            align-items: center;
             img {
                 margin: 15px 0;
-                width: 70%;
+                width: 55%;
             }
         }
     .header-title {
         display: flex;
         flex-direction: column;
+        justify-content: center;
         h1 {
             font-size: $size-big;
             font-weight: 400;
@@ -54,10 +56,113 @@ header {
 .project-description {
     display: flex;
     flex-direction: column;
-    padding: 15px;
-    &__img {
+    &__carroussel {
+        position: relative;
         img {
             width: 100%;
+            vertical-align: middle;
         }
+    }
+    h2 {
+        text-align: center;
+        font-size: $size-medium;
+    }
+    span {
+        font-weight: 550;
+    }
+    &__txt-data {
+        background-color: $primary;
+        padding: 15px;
+    }
+    &__txt-material {
+        padding: 15px;
+    }
+    &__txt-document {
+        background-color: $primary;
+        padding: 15px;
+    }
+}
+
+// carroussel
+.mySlides {
+    display: none;
+}
+
+.next, .prev {
+    cursor: pointer;
+    position: absolute;
+    top: 35%;
+    width: auto;
+    padding: 0 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.next {
+    right: 15px;
+}
+
+.caption-text {
+    color: black;
+    font-size: 15px;
+    padding: 20px;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+.numbertext {
+    color: #f2f2f2;
+    background-color: #4e4e4ea9;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+.dotsPack {
+    display: flex;
+    justify-content: center;
+    column-gap: 2%;
+
+}
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    background-color: #bbb;
+    border-radius: 50%;
+    text-align: center;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+    background-color: #717171;
+}
+
+.fade {
+    animation: fade 1500ms;
+}
+  
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+
+// footer
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    a {
+        text-decoration: none;
+        font-weight: bold;
+        font-size: medium;
+        padding: 15px;
+        color: black;
+    }
+    a:hover {
+        background-color: $primary;
     }
 }
