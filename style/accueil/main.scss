@@ -13,7 +13,7 @@ $size-little : 0.9rem;
 // header
 header {
     background-color: $primary;
-    height: 450px;
+    height: 350px;
     .main-title {
         display: flex;
         flex-direction: column;
@@ -86,5 +86,19 @@ main {
             display: flex;
             justify-content: space-between;
         }
+    }
+}
+
+// footer
+footer {
+    background-color: $primary;
+    display: flex;
+    flex-direction: column;
+    padding: 15px 15px 35px 15px;
+    align-items: center;
+    row-gap: 5px;
+    a {
+        text-decoration: none;
+        color: black;
     }
 }

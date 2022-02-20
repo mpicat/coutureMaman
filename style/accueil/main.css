@@ -7,7 +7,7 @@
 
 header {
   background-color: #f5dced;
-  height: 450px;
+  height: 350px;
 }
 
 header .main-title {
@@ -126,5 +126,26 @@ main {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+footer {
+  background-color: #f5dced;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 15px 15px 35px 15px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  row-gap: 5px;
+}
+
+footer a {
+  text-decoration: none;
+  color: black;
 }
 /*# sourceMappingURL=main.css.map */

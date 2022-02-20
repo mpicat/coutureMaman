@@ -203,7 +203,7 @@ header .header-title p {
   }
 }
 
-footer {
+section {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -213,7 +213,7 @@ footer {
   padding: 30px;
 }
 
-footer a {
+section a {
   text-decoration: none;
   font-weight: bold;
   font-size: medium;
@@ -221,7 +221,28 @@ footer a {
   color: black;
 }
 
-footer a:hover {
+section a:hover {
   background-color: #f5dced;
+}
+
+footer {
+  background-color: #f5dced;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 15px 15px 35px 15px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  row-gap: 5px;
+}
+
+footer a {
+  text-decoration: none;
+  color: black;
 }
 /*# sourceMappingURL=projet.css.map */
