@@ -7,39 +7,46 @@
 
 // variables
 $primary : rgb(245, 220, 237);
-$size-big : 2.8rem;
+$size-big : 1.5rem;
 $size-little : 0.9rem;
 
 // header
 header {
     background-color: $primary;
-    height: 350px;
     .main-title {
         display: flex;
-        flex-direction: column;
+        justify-content: center;
         align-items: center;
-        padding-top: 60px;
-        img {
+        padding: 15px;
+        &__img {
             width: 25%;
+            img {
+                width: 60%;
+            }
         }
-        h1 {
-            font-size: $size-big;
-            font-weight: 400;
-            margin-bottom: 15px;
+        &__txt {
+            width: 60%;
+            h1 {
+                font-size: $size-big;
+                font-weight: 500;
+                margin: 0px;
+            }
         }
-        p {
-            animation: appear 2000ms ease-in-out
+        &__links {
+            display: flex;
+            align-items: center;
+            column-gap: 5px;
+            a {
+                text-decoration: none;
+                color: black;
+                img {
+                    width: 45px;
+                    border: solid 1px black;
+                    border-radius: 5px;
+                }
+            }
         }
     }
-}
-
-@keyframes appear {
-   0% {
-       opacity: 0;
-   } 
-   100% {
-       opacity: 1;
-   } 
 }
 
 // main
@@ -86,19 +93,5 @@ main {
             display: flex;
             justify-content: space-between;
         }
-    }
-}
-
-// footer
-footer {
-    background-color: $primary;
-    display: flex;
-    flex-direction: column;
-    padding: 15px 15px 35px 15px;
-    align-items: center;
-    row-gap: 5px;
-    a {
-        text-decoration: none;
-        color: black;
     }
 }

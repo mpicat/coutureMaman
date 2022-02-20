@@ -1,13 +1,27 @@
+// variables
+$size-very-big : 2.2rem;
+
 // Header
 header {
-    height: 400px;
     .main-title {
-        img {
-            width: 10%;
+        &__img img {
+            width: 40%;
+        }
+        &__txt {
+            width: 40%;
+            h1 {
+                font-size: $size-very-big;
+            }
+        }
+        &__links a img {
+            width: 60px;
+            border: solid 1px black;
+            border-radius: 5px;
         }
     }
 }
 
+// main
 .cart-project {
     width: 30%;
 }

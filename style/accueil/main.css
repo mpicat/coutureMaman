@@ -7,54 +7,59 @@
 
 header {
   background-color: #f5dced;
-  height: 350px;
 }
 
 header .main-title {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding-top: 60px;
+  padding: 15px;
 }
 
-header .main-title img {
+header .main-title__img {
   width: 25%;
 }
 
-header .main-title h1 {
-  font-size: 2.8rem;
-  font-weight: 400;
-  margin-bottom: 15px;
+header .main-title__img img {
+  width: 60%;
 }
 
-header .main-title p {
-  -webkit-animation: appear 2000ms ease-in-out;
-          animation: appear 2000ms ease-in-out;
+header .main-title__txt {
+  width: 60%;
 }
 
-@-webkit-keyframes appear {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
+header .main-title__txt h1 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin: 0px;
 }
 
-@keyframes appear {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
+header .main-title__links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-column-gap: 5px;
+          column-gap: 5px;
+}
+
+header .main-title__links a {
+  text-decoration: none;
+  color: black;
+}
+
+header .main-title__links a img {
+  width: 45px;
+  border: solid 1px black;
+  border-radius: 5px;
 }
 
 main {
@@ -126,26 +131,5 @@ main {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-}
-
-footer {
-  background-color: #f5dced;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  padding: 15px 15px 35px 15px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  row-gap: 5px;
-}
-
-footer a {
-  text-decoration: none;
-  color: black;
 }
 /*# sourceMappingURL=main.css.map */

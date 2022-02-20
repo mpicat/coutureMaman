@@ -3,31 +3,6 @@ $primary : rgb(245, 220, 237);
 $size-big : 2rem;
 $size-little : 0.9rem;
 
-// Header
-header {
-    height: 250px;
-    .header-img {
-            width: 20%;
-            img {
-                margin: 15px 0;
-                width: 35%;
-            }
-        }
-    .header-title {
-        display: flex;
-        flex-direction: column;
-        h1 {
-            font-size: $size-big;
-            font-weight: 400;
-            margin: 15px 0;
-        }
-        p {
-            margin-top: 0;
-            animation: appear 2000ms ease-in-out
-        }
-    }
-}
-
 // main
 .project-description {
     flex-direction: row;

@@ -5,76 +5,6 @@
   font-family: 'Montserrat', sans-serif;
 }
 
-header {
-  background-color: #f5dced;
-  height: 200px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  padding: 0 15px 0;
-}
-
-header .header-img {
-  width: 35%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-header .header-img img {
-  margin: 15px 0;
-  width: 55%;
-}
-
-header .header-title {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-header .header-title h1 {
-  font-size: 2rem;
-  font-weight: 400;
-  margin: 15px 0;
-}
-
-header .header-title p {
-  margin-top: 0;
-  -webkit-animation: appear 2000ms ease-in-out;
-          animation: appear 2000ms ease-in-out;
-}
-
-@-webkit-keyframes appear {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-@keyframes appear {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
 .project-description {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -223,26 +153,5 @@ section a {
 
 section a:hover {
   background-color: #f5dced;
-}
-
-footer {
-  background-color: #f5dced;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  padding: 15px 15px 35px 15px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  row-gap: 5px;
-}
-
-footer a {
-  text-decoration: none;
-  color: black;
 }
 /*# sourceMappingURL=projet.css.map */

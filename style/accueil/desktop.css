@@ -1,9 +1,19 @@
-header {
-  height: 400px;
+header .main-title__img img {
+  width: 40%;
 }
 
-header .main-title img {
-  width: 10%;
+header .main-title__txt {
+  width: 40%;
+}
+
+header .main-title__txt h1 {
+  font-size: 2.2rem;
+}
+
+header .main-title__links a img {
+  width: 60px;
+  border: solid 1px black;
+  border-radius: 5px;
 }
 
 .cart-project {
