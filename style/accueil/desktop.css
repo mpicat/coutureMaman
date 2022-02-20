@@ -2,6 +2,10 @@ header {
   height: 500px;
 }
 
+header .main-title {
+  padding-bottom: 25px;
+}
+
 header .main-title img {
   width: 10%;
 }
