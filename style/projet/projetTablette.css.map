@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAQA,AAAA,gCAAgC,CAAC;EAC7B,OAAO,EAAE,IAAI;CAIhB;;AALD,AAEI,gCAF4B,CAE5B,SAAS,CAAC;EACN,KAAK,EAAE,GAAG;CACb;;AAGL,AAAA,qCAAqC,CAAC;EAClC,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;EACtB,WAAW,EAAE,MAAM;CACtB",
+    "sources": [
+        "projetTablette.scss"
+    ],
+    "names": [],
+    "file": "projetTablette.css"
+}

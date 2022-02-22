@@ -1,9 +1,6 @@
-header .main-title__img img {
-  width: 25%;
-}
-
-header .main-title__txt {
-  width: 40%;
+header .main-title {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 header .main-title__txt h1 {
@@ -22,14 +19,9 @@ main {
           flex-direction: row;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-column-gap: 15px;
-          column-gap: 15px;
 }
 
 main a {
-  width: 30%;
+  width: 33.33%;
 }
 /*# sourceMappingURL=tablette.css.map */

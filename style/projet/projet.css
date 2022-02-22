@@ -5,42 +5,8 @@
   font-family: 'Montserrat', sans-serif;
 }
 
-.project-description {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
-.project-description__carroussel {
-  position: relative;
-  padding-bottom: 25px;
-}
-
-.project-description h2 {
-  text-align: center;
-  font-size: 1.5rem;
-}
-
-.project-description span {
-  font-weight: 550;
-}
-
-.project-description__txt-data {
-  background-color: #f5dced;
-  padding: 15px;
-}
-
-.project-description__txt-material {
-  padding: 15px;
-}
-
-.project-description__txt-document {
-  background-color: #f5dced;
-  padding: 15px;
+body {
+  background-color: #1f2224;
 }
 
 .mySlides {
@@ -61,12 +27,12 @@
 .next, .prev {
   cursor: pointer;
   position: absolute;
-  top: 35%;
+  top: 45%;
   width: auto;
   padding: 0 20px;
   color: white;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 25px;
 }
 
 .next {
@@ -76,42 +42,54 @@
 .numbertext {
   color: #f2f2f2;
   background-color: #4e4e4ea9;
-  font-size: 12px;
+  font-size: 15px;
   padding: 8px 12px;
   position: absolute;
   top: 0;
 }
 
-.caption {
-  color: black;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  width: 100%;
+.project-description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: white;
+}
+
+.project-description__carroussel {
+  position: relative;
+  padding-bottom: 5px;
+}
+
+.project-description h2, .project-description .commentaire {
   text-align: center;
+  font-size: 2.2rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin: 0;
+  padding: 10px;
 }
 
-.fade {
-  -webkit-animation: fade 1500ms;
-          animation: fade 1500ms;
+.project-description .commentaire {
+  font-size: 1.1rem;
 }
 
-@-webkit-keyframes fade {
-  from {
-    opacity: .4;
-  }
-  to {
-    opacity: 1;
-  }
+.project-description__txt-description {
+  padding: 10px;
+  background-color: #f5dced;
+  color: black;
 }
 
-@keyframes fade {
-  from {
-    opacity: .4;
-  }
-  to {
-    opacity: 1;
-  }
+.project-description__txt-description a {
+  text-decoration: none;
+  color: #e52165;
+}
+
+.project-description__txt-description .carac, .project-description__txt-description span {
+  font-weight: 700;
 }
 
 section {
@@ -121,18 +99,17 @@ section {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 30px;
+  padding: 20px;
 }
 
 section a {
   text-decoration: none;
   font-weight: bold;
   font-size: medium;
-  padding: 15px;
-  color: black;
+  color: white;
 }
 
-section a:hover {
-  background-color: #f5dced;
+section a i {
+  color: #e52165;
 }
 /*# sourceMappingURL=projet.css.map */

@@ -6,8 +6,9 @@
 
 
 // variables
-$primary : rgb(245, 220, 237);
-$size-big : 1.5rem;
+$primary : rgba(31,34,36,255);
+$secondary : #e52165;
+$size-big : 1.3rem;
 $size-little : 0.9rem;
 
 // header
@@ -15,21 +16,16 @@ header {
     background-color: $primary;
     .main-title {
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
-        padding: 15px;
-        &__img {
-            width: 25%;
-            img {
-                width: 60%;
-            }
-        }
+        padding: 20px 15px;
         &__txt {
-            width: 60%;
             h1 {
                 font-size: $size-big;
-                font-weight: 500;
+                font-weight: 300;
                 margin: 0px;
+                color: white;
+                text-transform: uppercase;
             }
         }
         &__links {
@@ -38,11 +34,10 @@ header {
             column-gap: 5px;
             a {
                 text-decoration: none;
-                color: black;
                 img {
                     width: 45px;
-                    border: solid 1px black;
-                    border-radius: 5px;
+                    border: solid 1px white;
+                    border-radius: 3px;
                 }
             }
         }
@@ -51,53 +46,54 @@ header {
 
 // main
 main {
-    margin: 25px;
     display: flex;
     flex-direction: column;
-    row-gap: 15px;
-    a {
-        width: 100%;
-    }
 }
+
 .link-project {
     text-decoration: none;
     color: black;
     display: flex;
-    justify-content: center;
 }
 
 .cart-project {
     width: 100%;
     height: 250px;
-    border-radius: 10px;
-    box-shadow: 0 0 15px 2px rgb(107, 106, 106);
     position: relative;
     display: flex;
     flex-direction: column;
-        img {
-            height: 70%;
-            object-fit: cover;
-            border-radius: 10px 10px 0 0;
-        }
-        &__comment {
-            position: absolute;
-            top: 5px;
-            right: 25px;
-            background-color: rgb(59, 190, 59);
-            font-size: $size-little;
-            padding: 5px;
-            font-weight: bold;
-            border-radius: 3px;
-        }
+    .bg {
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        background-image: linear-gradient(rgba(255, 255, 255, 0) 15%, rgba(255, 255, 255, 0.6));
+        width: 100%;
+        height: 100%;
+    }
+    img {
+        height: 100%;
+        object-fit: cover;
+    }
+    &__comment {
+        position: absolute;
+        top: 0px;
+        right: 15px;
+        background-color: $secondary;
+        font-size: $size-little;
+        padding: 5px;
+        font-weight: bold;
+    }
+    .crochet {
+        background-color: rgb(31, 167, 31);
+    }
     &__txt {
+        position: absolute;
+        bottom: 15px;
         padding: 0 15px;
-        display: flex;
-        flex-direction: column;
-        height: 30%;
-        &-title {
-            height: 25%;
-            display: flex;
-            justify-content: space-between;
+        h2, p {
+            margin: 0;
         }
     }
 }

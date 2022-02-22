@@ -4,39 +4,16 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-
 // variables
-$primary : rgb(245, 220, 237);
-$size-big : 2rem;
-$size-medium : 1.5rem;
+$primary : rgba(31,34,36,255);
+$secondary : #e52165;
+$tertiary : rgb(245, 220, 237);
+$size-big : 2.2rem;
+$size-medium : 1.1rem;
 $size-little : 0.9rem;
 
-// main
-.project-description {
-    display: flex;
-    flex-direction: column;
-    &__carroussel {
-        position: relative;
-        padding-bottom: 25px;
-    }
-    h2 {
-        text-align: center;
-        font-size: $size-medium;
-    }
-    span {
-        font-weight: 550;
-    }
-    &__txt-data {
-        background-color: $primary;
-        padding: 15px;
-    }
-    &__txt-material {
-        padding: 15px;
-    }
-    &__txt-document {
-        background-color: $primary;
-        padding: 15px;
-    }
+body {
+    background-color: $primary;
 }
 
 // carroussel
@@ -56,12 +33,12 @@ $size-little : 0.9rem;
 .next, .prev {
     cursor: pointer;
     position: absolute;
-    top: 35%;
+    top: 45%;
     width: auto;
     padding: 0 20px;
     color: white;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 25px;
 }
 
 .next {
@@ -71,43 +48,58 @@ $size-little : 0.9rem;
 .numbertext {
     color: #f2f2f2;
     background-color: #4e4e4ea9;
-    font-size: 12px;
+    font-size: 15px;
     padding: 8px 12px;
     position: absolute;
     top: 0;
 }
 
-.caption {
-    color: black;
-    font-size: 15px;
-    padding: 8px 12px;
-    position: absolute;
-    width: 100%;
-    text-align: center;
-}
-
-.fade {
-    animation: fade 1500ms;
-}
-  
-@keyframes fade {
-    from {opacity: .4} 
-    to {opacity: 1}
+// main
+.project-description {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    &__carroussel {
+        position: relative;
+        padding-bottom: 5px;
+    }
+    h2, .commentaire {
+        text-align: center;
+        font-size: $size-big;
+        text-transform: uppercase;
+        font-weight: 500;
+        margin: 0;
+        padding: 10px;
+    }
+    .commentaire {
+        font-size: $size-medium;
+    }
+    &__txt-description {
+        padding: 10px;
+        background-color: $tertiary;
+        color: black;
+        a {
+            text-decoration: none;
+            color: #e52165;
+        }
+        .carac, span {
+            font-weight: 700;
+        }
+    }
 }
 
 // section
 section {
     display: flex;
     justify-content: center;
-    padding: 30px;
+    padding: 20px;
     a {
         text-decoration: none;
         font-weight: bold;
         font-size: medium;
-        padding: 15px;
-        color: black;
-    }
-    a:hover {
-        background-color: $primary;
+        color: white;
+        i {
+            color: $secondary;
+        }
     }
 }

@@ -11,20 +11,20 @@ function currentSlide(n) {
 
 function showSlides(n) {
   let slides = document.getElementsByClassName("mySlides");
-  let dots = document.getElementsByClassName("demo");
-  let captionText = document.getElementById("caption")
   if (n > slides.length){
       slideIndex = 1
     } if (n < 1) {
         slideIndex = slides.length
     }
   for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";  
+      slides[i].style.display = "none";
   }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " active";
-  captionText.innerHTML = slides[slideIndex-1].alt;
+  if (window.screen.width <= 650) {
+    slides[slideIndex-1].style.display = "block";
+  } else {
+      slides[slideIndex-1].style.display = "block";
+      slides[slideIndex].style.display = "block";
+      slides[slideIndex+1].style.display = "block";
+      slides[slideIndex+2].style.display = "block";
+    }
 }
