@@ -9,8 +9,8 @@
     <meta name="description" content="Décourez mes projets tricots sur la toile !" />
     <link rel="icon" type="icon/x-icon" href="img/favicon.png" />
     <link rel="stylesheet" href="style/normalize.css" />
-    <link rel="stylesheet" href="style/projet/projet.css" />
-    <link rel="stylesheet" media="screen and (min-width: 650px)" href="style/projet/projetTablette.css" />
+    <link rel="stylesheet" href="style/main.css" />
+    <link rel="stylesheet" media="screen and (max-width: 950px)" href="style/mediaQ.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"> 
     <script src="https://kit.fontawesome.com/de331f1f73.js" crossorigin="anonymous"></script>
 
@@ -18,89 +18,147 @@
 </head>
 <body>
     <div class="main_wrapper">
-        <main class="project-description">
-            <!-- carroussel -->
-            <div class="project-description__carroussel">
-                <div class="mySlides">
-                    <div class="numbertext">1 / 13</div>
-                    <img src="img/plaid_covid/20200404_111423c.webp" title="04 04 2020" alt="Image de tricot">
-                </div>
-                <div class="mySlides">
-                    <div class="numbertext">2 / 13</div>
-                    <img src="img/plaid_covid/20200405_231048c.webp" title="05 04 2020" alt="Image de tricot">
-                </div>
-                <div class="mySlides">
-                    <div class="numbertext">3 / 13</div>
-                    <img src="img/plaid_covid/20200408_102051c.webp" title="08 04 2020" alt="Image de tricot">
-                </div>
-                <div class="mySlides">
-                    <div class="numbertext">4 / 13</div>
-                    <img src="img/plaid_covid/20200410_221031c.webp" title="10 04 2020" alt="Image de tricot">
-                </div>
-                <div class="mySlides">
-                    <div class="numbertext">5 / 13</div>
-                    <img src="img/plaid_covid/20200413_145141c.webp" title="13 04 2020" alt="Image de tricot">
-                </div>
-                <div class="mySlides">
-                    <div class="numbertext">6 / 13</div>
-                    <img src="img/plaid_covid/20200416_144104c.webp" title="16 04 2020" alt="Image de tricot">
-                </div>
-                <div class="mySlides">
-                    <div class="numbertext">7 / 13</div>
-                    <img src="img/plaid_covid/20200417_101223c.webp" title="17 04 2020" alt="Image de tricot">
-                </div>
-                <div class="mySlides">
-                    <div class="numbertext">8 / 13</div>
-                    <img src="img/plaid_covid/20200419_150511c.webp" title="19 04 2020" alt="Image de tricot">
-                </div>
-                <div class="mySlides">
-                    <div class="numbertext">9 / 13</div>
-                    <img src="img/plaid_covid/20200422_114602c.webp" title="22 04 2020" alt="Image de tricot">
-                </div>
-                <div class="mySlides">
-                    <div class="numbertext">10 / 13</div>
-                    <img src="img/plaid_covid/20200424_173808c.webp" title="24 04 2020" alt="Image de tricot">
-                </div>
-                <div class="mySlides">
-                    <div class="numbertext">11 / 13</div>
-                    <img src="img/plaid_covid/20200511_161152c.webp" title="11 05 2020" alt="Image de tricot">
-                </div>
-                <div class="mySlides">
-                    <div class="numbertext">12 / 13</div>
-                    <img src="img/plaid_covid/20200529_174412c.webp" title="29 05 2020" alt="Image de tricot">
-                </div>
-                <div class="mySlides">
-                    <div class="numbertext">13 / 13</div>
-                    <img src="img/plaid_covid/20200604_175123c.webp" title="04 06 2020" alt="Image de tricot">
+        <header>
+            <div class="header-accueil">
+                <a href="index.html">
+                    <div class="header-accueil__img">
+                        <img src="img/icon.png" alt="logo La Tricoteuse">
+                    </div>
+                </a>
+            </div>
+            <div class="header-links">
+                <div class="header-links__ciseaux">
+                    <a href="https://lesciseauxmagiques.fr/" target="_blank">
+                        <img src="img/ciseauxMagiquesIcon.jpg" alt="icone Les ciseaux magiques">
+                    </a>
                 </div>
 
-                <a class="prev" onclick="plusSlides(-1)">&#10094</a>
-                <a class="next" onclick="plusSlides(1)">&#10095</a>
+                <div class="header-links__rascol">
+                    <a href="https://www.rascol.com/" target="_blank">
+                        <img src="img/rascollIcon.png" alt="icone Rascol">
+                    </a>
+                </div>
+
+                <div class="header-links__katia">
+                    <a href="https://www.katia.com/FR/" target="_blank">
+                        <img src="img/katiaIcon.png" alt="icone Katia">
+                    </a>
+                </div>
+            </div>
+        </header>
+
+        <section class="project-description">
+            <!-- carroussel -->
+            <div class="project-description__carroussel">
+                <div class="allSlides">
+                    <div class="slide">
+                        <div class="numbertext">1 / 13</div>
+                        <img src="img/plaid_covid/20200404_111423c.webp" title="04 04 2020" alt="Image de tricot">
+                    </div>
+                    
+                    <div class="slide">
+                        <div class="numbertext">2 / 13</div>
+                        <img src="img/plaid_covid/20200405_231048c.webp" title="05 04 2020" alt="Image de tricot">
+                    </div>
+                    
+                    <div class="slide">
+                        <div class="numbertext">3 / 13</div>
+                        <img src="img/plaid_covid/20200408_102051c.webp" title="08 04 2020" alt="Image de tricot">
+                    </div>
+                        
+                    <div class="slide">
+                        <div class="numbertext">4 / 13</div>
+                        <img src="img/plaid_covid/20200410_221031c.webp" title="10 04 2020" alt="Image de tricot">
+                    </div>
+                
+                    <div class="slide">
+                        <div class="numbertext">5 / 13</div>
+                        <img src="img/plaid_covid/20200413_145141c.webp" title="13 04 2020" alt="Image de tricot">
+                    </div>
+                    
+                    <div class="slide">
+                        <div class="numbertext">6 / 13</div>
+                        <img src="img/plaid_covid/20200416_144104c.webp" title="16 04 2020" alt="Image de tricot">
+                    </div>
+                    
+                    <div class="slide">
+                        <div class="numbertext">7 / 13</div>
+                        <img src="img/plaid_covid/20200417_101223c.webp" title="17 04 2020" alt="Image de tricot">
+                    </div>
+                    
+                    <div class="slide">
+                        <div class="numbertext">8 / 13</div>
+                        <img src="img/plaid_covid/20200419_150511c.webp" title="19 04 2020" alt="Image de tricot">
+                    </div>
+                    
+                    <div class="slide">
+                        <div class="numbertext">9 / 13</div>
+                        <img src="img/plaid_covid/20200422_114602c.webp" title="22 04 2020" alt="Image de tricot">
+                    </div>
+                    
+                    <div class="slide">
+                        <div class="numbertext">10 / 13</div>
+                        <img src="img/plaid_covid/20200424_173808c.webp" title="24 04 2020" alt="Image de tricot">
+                    </div>
+                    
+                    <div class="slide">
+                        <div class="numbertext">11 / 13</div>
+                        <img src="img/plaid_covid/20200511_161152c.webp" title="11 05 2020" alt="Image de tricot">
+                    </div>
+                    
+                    <div class="slide">
+                        <div class="numbertext">12 / 13</div>
+                        <img src="img/plaid_covid/20200529_174412c.webp" title="29 05 2020" alt="Image de tricot">
+                    </div>
+                    
+                    <div class="slide">
+                        <div class="numbertext">13 / 13</div>
+                        <img src="img/plaid_covid/20200604_175123c.webp" title="04 06 2020" alt="Image de tricot">
+                    </div>
+                    <a class="prev" onclick="plusSlides(-1)">❮</a>
+                    <a class="next" onclick="plusSlides(1)">❯</a>
+                </div>
+                
+                <div class="column">
+                    <img class="demo cursor" src="img/plaid_covid/20200404_111423c.webp" onclick="currentSlide(1)" alt="Image de tricot">
+                    <img class="demo cursor" src="img/plaid_covid/20200405_231048c.webp" onclick="currentSlide(2)" alt="Image de tricot">
+                    <img class="demo cursor" src="img/plaid_covid/20200408_102051c.webp" onclick="currentSlide(3)" alt="Image de tricot">
+                    <img class="demo cursor" src="img/plaid_covid/20200410_221031c.webp" onclick="currentSlide(4)" alt="Image de tricot">
+                    <img class="demo cursor" src="img/plaid_covid/20200413_145141c.webp" onclick="currentSlide(5)" alt="Image de tricot">
+                    <img class="demo cursor" src="img/plaid_covid/20200416_144104c.webp" onclick="currentSlide(6)" alt="Image de tricot">
+                    <img class="demo cursor" src="img/plaid_covid/20200417_101223c.webp" onclick="currentSlide(7)" alt="Image de tricot">
+                    <img class="demo cursor" src="img/plaid_covid/20200419_150511c.webp" onclick="currentSlide(8)" alt="Image de tricot">
+                    <img class="demo cursor" src="img/plaid_covid/20200422_114602c.webp" onclick="currentSlide(9)" alt="Image de tricot">
+                    <img class="demo cursor" src="img/plaid_covid/20200424_173808c.webp" onclick="currentSlide(10)" alt="Image de tricot">
+                    <img class="demo cursor" src="img/plaid_covid/20200511_161152c.webp" onclick="currentSlide(11)" alt="Image de tricot">
+                    <img class="demo cursor" src="img/plaid_covid/20200529_174412c.webp" onclick="currentSlide(12)" alt="Image de tricot">
+                    <img class="demo cursor" src="img/plaid_covid/20200604_175123c.webp" onclick="currentSlide(13)" alt="Image de tricot">
+                </div>
             </div>
 
             <div class="project-description__txt">
-                <h2>Plaid Covid</h2>
-                <p class="commentaire">Perros FX</p>
+                <div class="project-description__txt-title">
+                    <h1>Plaid Covid</h1>
+                    <p class="commentaire">Perros FX</p>
+                </div>
+                
                 <div class="project-description__txt-description">
                     <p class="carac" >Aiguilles 4.5 <i class="fa-solid fa-calendar-days"></i> 24/03/2020 - 01/07/2020</p>
-                    <p><span>Marque(s) de laine :</span></p>
-                    <ul>
-                        <li>Katia Aran Merino (<a href="https://www.katia.com/FR/fils-automne-hiver-merinoaran-816.html" target="_blank">Achat</a>)</li>
-                    </ul>
-                    <p><span>Couleur(s) :</span></p>
-                    <ul>
-                        <li>10x Beige "11"</li>
-                        <li>10x Ecru "10"</li>
-                    </ul>
-                    <p><span>Document(s) de production :</span></p>
-                    <ul>
-                        <li><a href="https://docs.google.com/document/d/e/2PACX-1vQViv8wKqedBT71hu2zlE38S7mEeCLI-RkIusc57usbf78aly_tEbCm6KSwEa4awXY5bj8ybcYoWvNk/pub" target="_blank">Plaid Helene Covid</a></li>
-                    </ul>
+                    <div class="laine">
+                        <h2>Marque(s) de laine :</h2>
+                        <p>Katia Aran Merino (<a href="https://www.katia.com/FR/fils-automne-hiver-merinoaran-816.html" target="_blank">Achat</a>)</p>
+                    </div>
+                    <div class="couleur">
+                        <h2>Couleur(s) :</h2>
+                        <p>10x Beige "11"</p>
+                        <p>10x Ecru "10"</p>
+                    </div>
+                    <div class="prod">
+                        <h2>Document(s) de production :</h2>
+                        <p><a href="https://docs.google.com/document/d/e/2PACX-1vQViv8wKqedBT71hu2zlE38S7mEeCLI-RkIusc57usbf78aly_tEbCm6KSwEa4awXY5bj8ybcYoWvNk/pub" target="_blank">Plaid Helene Covid</a></p>
+                    </div>
                 </div>
             </div>
-        </main>
-        <section>
-            <a class="back" href="index.html"><i class="fa-solid fa-rotate-left"></i> Retour à l'accueil</a>
         </section>
         <script src="main.js"></script>
     </div>

@@ -1,0 +1,110 @@
+header {
+  width: 100%;
+  height: 100px;
+  position: relative;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 15px;
+}
+
+.header-accueil__img img {
+  width: 45%;
+}
+
+.header-links {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-column-gap: 5px;
+          column-gap: 5px;
+}
+
+.header-links a img {
+  width: 50px;
+}
+
+main {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0;
+}
+
+.link-project {
+  width: 80%;
+}
+
+.cart-project {
+  height: 250px;
+}
+
+.project-description {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 0;
+}
+
+.project-description__carroussel {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  row-gap: 30px;
+  margin: 0;
+}
+
+.allSlides {
+  margin: auto;
+}
+
+.slide {
+  width: 100%;
+  height: 300px;
+  border: none;
+}
+
+.slide img {
+  height: 100%;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.column {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  row-gap: 0;
+  -webkit-column-gap: 5px;
+          column-gap: 5px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100px;
+}
+
+.column img {
+  border: solid 1px black;
+  border-radius: 10px;
+  height: 45px;
+}
+
+.project-description__txt {
+  padding: 15px;
+  text-align: center;
+}
+/*# sourceMappingURL=mediaQ.css.map */

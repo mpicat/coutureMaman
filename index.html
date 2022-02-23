@@ -7,10 +7,10 @@
     <title>La Tricoteuse</title>
     <meta name="robots" content="index, follow" />
     <meta name="description" content="Décourez mes projets tricots sur la toile !" />
-    <link rel="icon" type="icon/x-icon" href="img/favicon.png" />
+    <link rel="icon" type="icon/x-icon" href="img/icon.png" />
     <link rel="stylesheet" href="style/normalize.css" />
-    <link rel="stylesheet" href="style/accueil/main.css" />
-    <link rel="stylesheet" media="screen and (min-width: 650px)" href="style/accueil/tablette.css">
+    <link rel="stylesheet" href="style/main.css" />
+    <link rel="stylesheet" media="screen and (max-width: 950px)" href="style/mediaQ.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"> 
     <script src="https://kit.fontawesome.com/de331f1f73.js" crossorigin="anonymous"></script>
 
@@ -18,19 +18,28 @@
 </head>
 <body>
     <div class="main_wrapper">
-        <div class="bg"></div>
         <header>
-            <div class="main-title">
-                <div class="main-title__txt">
-                    <h1>La Tricoteuse</h1>
-                </div>
-                <div class="main-title__links">
+            <div class="header-accueil">
+                <a href="index.html">
+                    <div class="header-accueil__img">
+                        <img src="img/icon.png" alt="logo La Tricoteuse">
+                    </div>
+                </a>
+            </div>
+            <div class="header-links">
+                <div class="header-links__ciseaux">
                     <a href="https://lesciseauxmagiques.fr/" target="_blank">
                         <img src="img/ciseauxMagiquesIcon.jpg" alt="icone Les ciseaux magiques">
                     </a>
+                </div>
+
+                <div class="header-links__rascol">
                     <a href="https://www.rascol.com/" target="_blank">
                         <img src="img/rascollIcon.png" alt="icone Rascol">
                     </a>
+                </div>
+
+                <div class="header-links__katia">
                     <a href="https://www.katia.com/FR/" target="_blank">
                         <img src="img/katiaIcon.png" alt="icone Katia">
                     </a>
@@ -41,8 +50,7 @@
         <main>
             <a href="projet1.html" class="link-project">
                 <div class="cart-project">
-                    <div class="bg"></div>
-                    <img src="img/plaid_covid/20200701_083415r.webp" alt="Image de tricot : 20200701">
+                    <img src="img/plaid_covid/20200701_083415r.webp" title="01 07 2020" alt="Image de tricot">
                     <p class="cart-project__comment">Aiguilles</p>
                     <div class="cart-project__txt">
                         <h2>Projet n°1 : Plaid Covid</h2>
@@ -53,8 +61,7 @@
 
             <a href="projet2.html" class="link-project">
                 <div class="cart-project">
-                    <div class="bg"></div>
-                    <img src="https://drive.google.com/uc?id=110BNvwb5v5Xuiug9S-3qhOkYBGXBCn_2" alt="Image de tricot : 20200701">
+                    <img src="https://drive.google.com/uc?id=110BNvwb5v5Xuiug9S-3qhOkYBGXBCn_2" title="29 11 2020" alt="Image de tricot">
                     <p class="cart-project__comment crochet">Crochet</p>
                     <div class="cart-project__txt">
                         <h2>Projet n°2 : Oasis Mandala</h2>
@@ -65,12 +72,77 @@
 
             <a href="projet3.html" class="link-project">
                 <div class="cart-project">
-                    <div class="bg"></div>
-                    <img src="https://drive.google.com/uc?id=1d3090qzVXSCcMxiW7YEa_kezeHnsDsRD" alt="Image de tricot : 20200701">
+                    <img src="https://drive.google.com/uc?id=1d3090qzVXSCcMxiW7YEa_kezeHnsDsRD" title="08 01 2021" alt="Image de tricot">
                     <p class="cart-project__comment crochet">Crochet</p>
                     <div class="cart-project__txt">
                         <h2>Projet n°3 : Entomology</h2>
                         <p>Perros Paulo</p>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="link-project">
+                <div class="cart-project">
+                    <img src="img/inProgress.jpg" title="En cours" alt="Image de tricot">
+                    <p class="cart-project__comment crochet">Inconnu</p>
+                    <div class="cart-project__txt">
+                        <h2>Projet n° : Titre</h2>
+                        <p>En cours</p>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="link-project">
+                <div class="cart-project">
+                    <img src="img/inProgress.jpg" title="En cours" alt="Image de tricot">
+                    <p class="cart-project__comment crochet">Inconnu</p>
+                    <div class="cart-project__txt">
+                        <h2>Projet n° : Titre</h2>
+                        <p>En cours</p>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="link-project">
+                <div class="cart-project">
+                    <img src="img/inProgress.jpg" title="En cours" alt="Image de tricot">
+                    <p class="cart-project__comment crochet">Inconnu</p>
+                    <div class="cart-project__txt">
+                        <h2>Projet n° : Titre</h2>
+                        <p>En cours</p>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="link-project">
+                <div class="cart-project">
+                    <img src="img/inProgress.jpg" title="En cours" alt="Image de tricot">
+                    <p class="cart-project__comment crochet">Inconnu</p>
+                    <div class="cart-project__txt">
+                        <h2>Projet n° : Titre</h2>
+                        <p>En cours</p>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="link-project">
+                <div class="cart-project">
+                    <img src="img/inProgress.jpg" title="En cours" alt="Image de tricot">
+                    <p class="cart-project__comment crochet">Inconnu</p>
+                    <div class="cart-project__txt">
+                        <h2>Projet n° : Titre</h2>
+                        <p>En cours</p>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="link-project">
+                <div class="cart-project">
+                    <img src="img/inProgress.jpg" title="En cours" alt="Image de tricot">
+                    <p class="cart-project__comment crochet">Inconnu</p>
+                    <div class="cart-project__txt">
+                        <h2>Projet n° : Titre</h2>
+                        <p>En cours</p>
                     </div>
                 </div>
             </a>

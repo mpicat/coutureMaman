@@ -1,0 +1,230 @@
+* {
+    box-sizing: border-box;
+    font-size: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+// variables
+$primary : rgba(31,34,36,255);
+$secondary : #e52165;
+$tertiary : rgb(245, 220, 237);
+$size-very-big : 1.8rem;
+$size-big : 1.3rem;
+$size-little : 0.9rem;
+
+body {
+    background-color: $tertiary;
+}
+
+// main-wrapper
+.main_wrapper {
+    position: relative;
+    width: 100%;
+}
+
+// header
+header {
+    background-color: $primary;
+    width: 100px;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10%;
+    padding-top: 20px;
+}
+
+.header {
+    &-accueil {
+        &__img {
+            display: flex;
+            justify-content: center;
+            img {
+                width: 80%;
+            }
+        }
+    }
+    &-links {
+        display: flex;
+        flex-direction: column;
+        row-gap: 15px;
+        a {
+            text-decoration: none;
+            img {
+                width: 60px;
+                border: solid 1px white;
+                border-radius: 5px;
+            }
+        }
+    }
+}
+
+// main
+main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 100px;
+}
+
+.link-project {
+    width: 30%;
+    text-decoration: none;
+    color: black;
+    margin: 15px;
+    box-shadow: 0 0 10px 2px rgb(112, 112, 112);
+}
+
+.cart-project {
+    height: 320px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    img {
+        height: 100%;
+        object-fit: cover;
+    }
+    &__comment {
+        position: absolute;
+        top: 0px;
+        right: 15px;
+        background-color: $secondary;
+        font-size: $size-little;
+        padding: 5px;
+        font-weight: bold;
+    }
+    .crochet {
+        background-color: rgb(31, 167, 31);
+    }
+    &__txt {
+        position: absolute;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        row-gap: 5px;
+        bottom: 5px;
+        padding: 15px;
+        background-color: rgba(0, 0, 0, 0.541);
+        h2, p {
+            color: white;
+            margin: 0;
+        }
+    }
+}
+
+
+// Projet
+// main Projet
+.project-description {
+    display: flex;
+    justify-content: center;
+    column-gap: 10%;
+    padding: 80px 0;
+    &__txt {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+.project-description__txt-title {
+    font-size: $size-very-big;
+    h1, .commentaire {
+        margin: 0;
+    }
+    .commentaire {
+        padding-bottom: 15px;
+    }
+}
+
+.laine, .couleur, .prod {
+    padding-top: 15px;
+}
+// carroussel
+.project-description__carroussel {
+    display: flex;
+    column-gap: 45px;
+    margin-left: 50px;
+    img {
+        vertical-align: middle;
+    }
+}
+  
+.allSlides {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.slide {
+    display: none;
+    border: solid 1px black;
+    height: 600px;
+}
+  
+.cursor {
+    cursor: pointer;
+}
+
+.numbertext {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+    background-color: $primary;
+}
+
+.column {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    row-gap: 10px;
+    column-gap: 10px;
+    justify-content: center;
+    height: 600px;
+    img {
+        border: solid 1px black;
+        border-radius: 10px;
+        height: 75px;
+    }
+}
+
+.demo {
+    opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+    opacity: 1;
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 45%;
+  width: auto;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: $size-very-big;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
