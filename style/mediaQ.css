@@ -52,6 +52,7 @@ main {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  row-gap: 30px;
   padding: 0;
 }
 
@@ -88,7 +89,7 @@ main {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  row-gap: 0;
+  row-gap: 5px;
   -webkit-column-gap: 5px;
           column-gap: 5px;
   -webkit-box-pack: center;
@@ -100,6 +101,7 @@ main {
 .column img {
   border: solid 1px black;
   border-radius: 10px;
+  width: 45px;
   height: 45px;
 }
 

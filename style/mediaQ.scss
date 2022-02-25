@@ -33,6 +33,7 @@ main {
 // Projet
 .project-description {
     flex-direction: column;
+    row-gap: 30px;
     padding: 0;
 }
 
@@ -62,13 +63,14 @@ main {
 
 .column {
     flex-direction: row;
-    row-gap: 0;
+    row-gap: 5px;
     column-gap: 5px;
     justify-content: center;
     height: 100px;
     img {
         border: solid 1px black;
         border-radius: 10px;
+        width: 45px;
         height: 45px;
     }
 }
