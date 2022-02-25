@@ -18,52 +18,78 @@
 </head>
 <body>
     <div class="main_wrapper">
-        <main class="project-description">
+        <header>
+            <div class="header-accueil">
+                <a href="index.html">
+                    <div class="header-accueil__img">
+                        <img src="img/icon.png" alt="logo La Tricoteuse">
+                    </div>
+                </a>
+            </div>
+            <div class="header-links">
+                <div class="header-links__ciseaux">
+                    <a href="https://lesciseauxmagiques.fr/" target="_blank">
+                        <img src="img/ciseauxMagiquesIcon.jpg" alt="icone Les ciseaux magiques">
+                    </a>
+                </div>
+
+                <div class="header-links__rascol">
+                    <a href="https://www.rascol.com/" target="_blank">
+                        <img src="img/rascollIcon.png" alt="icone Rascol">
+                    </a>
+                </div>
+
+                <div class="header-links__katia">
+                    <a href="https://www.katia.com/FR/" target="_blank">
+                        <img src="img/katiaIcon.png" alt="icone Katia">
+                    </a>
+                </div>
+            </div>
+        </header>
+
+        <section class="project-description">
             <!-- carroussel -->
             <div class="project-description__carroussel">
-                <div class="mySlides">
-                    <div class="numbertext">1 / 2</div>
-                    <img src="https://drive.google.com/uc?id=10zBLDXUi47us4OYxcR8jEysnwzy7crWI" title="23 11 2020" alt="Image de tricot">
+                <div class="allSlides">
+                    <div class="slide">
+                        <img src="img/oasis_mandala/20201123_183315c.webp" title="23 11 2020" alt="Image de tricot">
+                    </div>
                 </div>
-
-                <div class="mySlides">
-                    <div class="numbertext">2 / 2</div>
-                    <img src="https://drive.google.com/uc?id=110BNvwb5v5Xuiug9S-3qhOkYBGXBCn_2" title="29 11 2020" alt="Image de tricot">
+                
+                <div class="column">
+                    <img class="demo cursor" src="img/oasis_mandala/20201123_183315c.webp" onclick="currentSlide(1)" alt="Image de tricot">
                 </div>
-
-                <a class="prev" onclick="plusSlides(-1)">&#10094</a>
-                <a class="next" onclick="plusSlides(1)">&#10095</a>
             </div>
 
             <div class="project-description__txt">
-                <h2>Oasis Mandala</h2>
-                <p class="commentaire">Brest Maëlys</p>
+                <div class="project-description__txt-title">
+                    <h1>Oasis Mandala</h1>
+                    <p class="commentaire">Brest Maëlys</p>
+                </div>
+                
                 <div class="project-description__txt-description">
-                    <p class="carac" >Crochet 3.5 <i class="fa-solid fa-calendar-days"></i> 10/2020 - 11/2020</p>
-                    <p><span>Marque(s) de laine :</span></p>
-                    <ul>
-                        <li>Katia Basic Merino (<a href="https://www.katia.com/FR/fils-automne-hiver-basicmerino-793.html" target="_blank">Achat</a>)</li>
-                    </ul>
-                    <p><span>Couleur(s) :</span></p>
-                    <ul>
-                        <li>1x Vert "80"</li>
-                        <li>1x Marron "82"</li>
-                        <li>1x Beige "83"</li>
-                        <li>1x Jaune "84"</li>
-                        <li>1x Mint "85"</li>
-                        <li>1x Bleu ciel "86"</li>
-                        <li>1x Rose "87"</li>
-                        <li>1x Ecru "3"</li>
-                    </ul>
-                    <p><span>Document(s) de production :</span></p>
-                    <ul>
-                        <li><a href="https://drive.google.com/file/d/1bx-jt3kEaXifYRV5zWaGuWHyRhmKqOzE/view?usp=sharing" target="_blank">Oasis Mandala</a></li>
-                    </ul>
+                    <p class="carac" >Hook 3.5 <i class="fa-solid fa-calendar-days"></i> 10/2020 - 11/2020</p>
+                    <div class="laine">
+                        <h2>Marque(s) de laine :</h2>
+                        <p>Katia Basic Merino (<a href="https://www.katia.com/FR/fils-automne-hiver-basicmerino-793.html" target="_blank">Achat</a>)</p>
+                    </div>
+                    <div class="couleur">
+                        <h2>Couleur(s) :</h2>
+                        <p>1x Vert "80"</p>
+                        <p>1x Marron "82"</p>
+                        <p>1x Beige "83"</p>
+                        <p>1x Jaune "84"</p>
+                        <p>1x Mint "85"</p>
+                        <p>1x Bleu ciel "86"</p>
+                        <p>1x Rose "87"</p>
+                        <p>1x Ecru "3"</p>
+                    </div>
+                    <div class="prod">
+                        <h2>Document(s) de production :</h2>
+                        <p><a href="https://drive.google.com/file/d/1bx-jt3kEaXifYRV5zWaGuWHyRhmKqOzE/view?usp=sharing" target="_blank">Oasis Mandala</a></p>
+                    </div>
                 </div>
             </div>
-        </main>
-        <section>
-            <a class="back" href="index.html"><i class="fa-solid fa-rotate-left"></i> Retour à l'accueil</a>
         </section>
         <script src="main.js"></script>
     </div>
