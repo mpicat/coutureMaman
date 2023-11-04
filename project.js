@@ -47,42 +47,68 @@ function getProject() {
   .catch(err => console.log("Erreur requête API", err));
 }
 
+// Récupère la date de la photo dans son nom
+function getDatePic(picName) {
+  if (picName != null) {
+    let picNameWithoutSlash = picName.split('/');
+    let datePartofPicName = picNameWithoutSlash.length > 1?picNameWithoutSlash[2]:picName;
+
+    if (datePartofPicName) {
+      let year = datePartofPicName.substring(0,4);
+      let month = datePartofPicName.substring(4,6);
+      let day = datePartofPicName.substring(6,8);
+      let date = day + "-" + month + "-" + year;
+      return date;
+    } else {
+      return "";
+    }
+  } else {
+    return "";
+  }
+}
 
 // implantation des éléments récupérés via l'API dans la page projet
 function getPost(project){
 
-  // images alimentant le carroussel
-  project.pictures.forEach(picture => {
+  if(project.pictures.length > 0) {
+    // images alimentant le carroussel
+    project.pictures.forEach(picture => {
+      document.querySelector("#allSlides").innerHTML +=
+      `<div class="slide">
+        <img src=${picture} title=${getDatePic(picture)} alt="Image de tricot">
+      </div>`;
+    });
+
+    document.querySelector("#allSlides").innerHTML += 
+    `<a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>`;
+
+    // visualisation du carroussel
+    showSlides(slideIndex);
+
+    // liste des images miniatures
+    let slideNumber = 1;
+    project.pictures.forEach(picture => {
+      document.querySelector("#miniPictures").innerHTML +=
+      `<img class="demo cursor" src=${picture} onclick="currentSlide(${slideNumber})" alt="Image de tricot">`;
+      slideNumber += 1;
+    });
+  } else {
     document.querySelector("#allSlides").innerHTML +=
-    `<div class="slide">
-      <img src=${picture.img} title=${picture.date} alt="Image de tricot">
-    </div>`;
-  });
-
-  document.querySelector("#allSlides").innerHTML += 
-  `<a class="prev" onclick="plusSlides(-1)">❮</a>
-  <a class="next" onclick="plusSlides(1)">❯</a>`;
-
-  // visualisation du carroussel
-  showSlides(slideIndex);
-
-  // liste des images miniatures
-  let slideNumber = 1;
-  project.pictures.forEach(picture => {
-    document.querySelector("#miniPictures").innerHTML +=
-    `<img class="demo cursor" src=${picture.img} onclick="currentSlide(${slideNumber})" alt="Image de tricot">`;
-    slideNumber += 1;
-  });
+      `<div>
+        <p>Aucune image sur ce projet</p>
+      </div>`;
+  }
 
   // projet
   document.querySelector("#project").innerHTML +=
   `<div class="project-description__txt-title">
-      <h1>${project.shortTitle}</h1>
-      <p class="commentaire">${project.subTitle}</p>
+      <h1>${project.comment}</h1>
+      <p class="commentaire">${project.title}</p>
     </div>
 
     <div class="project-description__txt-description">
-      <p class="carac" >${project.caracteristic} <i class="fa-solid fa-calendar-days"></i> ${project.duration}</p>
+      <p class="carac" >${project.size} <i class="fa-solid fa-calendar-days"></i> ${project.duration}</p>
       <div class="laine">
         <h2>Marque(s) de laine :</h2>
         <div id="wool"></div>

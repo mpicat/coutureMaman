@@ -2,14 +2,10 @@
     "projects":[
         {
             "id": 1,
-            "img": "img/plaid_covid/20200701_083415r.webp",
-            "date": "01 07 2020",
+            "title": "Plaid Covid",
             "type": "Aiguilles",
-            "titleProject": "Projet n°1 : Plaid Covid",
-            "subTitle": "Perros FX",
-            "shortTitle": "Plaid Covid",
-            "caracteristic": "Aiguilles 4.5",
             "duration": "24/03/2020 - 01/07/2020",
+            "comment": "Perros FX",
             "wools": [
                 {
                     "brand": "Katia Aran Merino",
@@ -17,6 +13,7 @@
                 }
             ],
             "colors": ["10x Beige '11'", "10x Ecru '10'"],
+            "size": "Aiguilles 4.5",
             "productionDocuments": [
                 {
                     "documentName": "Mon Drive"
@@ -26,73 +23,29 @@
                     "documentName": "Plaid Helene Covid"
                 }
             ],
+            "mainPic": "img/plaid_covid/20200701_083415r.webp",
             "pictures" : [
-                {
-                    "img": "img/plaid_covid/20200404_111423c.webp",
-                    "date": "04 04 2020"
-                },
-                {
-                    "img": "img/plaid_covid/20200405_231048c.webp",
-                    "date": "05 04 2020"
-                },
-                {
-                    "img": "img/plaid_covid/20200408_102051c.webp",
-                    "date": "08 04 2020"
-                },
-                {
-                    "img": "img/plaid_covid/20200410_221031c.webp",
-                    "date": "10 04 2020"
-                },
-                {
-                    "img": "img/plaid_covid/20200413_145141c.webp",
-                    "date": "13 04 2020"
-                },
-                {
-                    "img": "img/plaid_covid/20200416_144104c.webp",
-                    "date": "16 04 2020"
-                },
-                {
-                    "img": "img/plaid_covid/20200417_101223c.webp",
-                    "date": "17 04 2020"
-                },
-                {
-                    "img": "img/plaid_covid/20200419_150511c.webp",
-                    "date": "19 04 2020"
-                },
-                {
-                    "img": "img/plaid_covid/20200422_114602c.webp",
-                    "date": "22 04 2020"
-                },
-                {
-                    "img": "img/plaid_covid/20200424_173808c.webp",
-                    "date": "24 04 2020"
-                },
-                {
-                    "img": "img/plaid_covid/20200511_161152c.webp",
-                    "date": "11 05 2020"
-                },
-                {
-                    "img": "img/plaid_covid/20200529_174412c.webp",
-                    "date": "29 05 2020"
-                },
-                {
-                    "img": "img/plaid_covid/20200604_175123c.webp",
-                    "date": "04 06 2020"
-                }
+                "img/plaid_covid/20200404_111423c.webp",
+                "img/plaid_covid/20200405_231048c.webp",
+                "img/plaid_covid/20200408_102051c.webp",
+                "img/plaid_covid/20200410_221031c.webp",
+                "img/plaid_covid/20200413_145141c.webp",
+                "img/plaid_covid/20200416_144104c.webp",
+                "img/plaid_covid/20200417_101223c.webp",
+                "img/plaid_covid/20200419_150511c.webp",
+                "img/plaid_covid/20200422_114602c.webp",
+                "img/plaid_covid/20200424_173808c.webp",
+                "img/plaid_covid/20200511_161152c.webp",
+                "img/plaid_covid/20200529_174412c.webp",
+                "img/plaid_covid/20200604_175123c.webp"
             ]
         },
         {
             "id": 2,
-            "link": "projet2.html",
-            "img": "img/oasis_mandala/20201129_113241r.webp",
-            "date": "29 11 2020",
+            "title": "Oasis Mandala",
             "type": "Crochet",
-            "typeStyle": "crochet",
-            "titleProject": "Projet n°2 : Oasis Mandala",
-            "subTitle": "Brest Maëlys",
-            "shortTitle": "Oasis Mandala",
-            "caracteristic": "Hook 3.5",
             "duration": "10/2020 - 11/2020",
+            "comment": "Brest Maëlys",
             "wools": [
                 {
                     "brand": "Katia Basic Merino",
@@ -100,30 +53,24 @@
                 }
             ],
             "colors": ["1x Vert '80'", "1x Marron '82'", "1x Beige '83'", "1x Jaune '84'", "1x Mint '85'", "1x Bleu ciel '86'", "1x Rose '87'", "1x Ecru '3'"],
+            "size": "Hook 3.5",
             "productionDocuments": [
                 {
                     "documentLink": "https://drive.google.com/file/d/1bx-jt3kEaXifYRV5zWaGuWHyRhmKqOzE/view?usp=sharing",
                     "documentName": "Oasis Mandala"
                 }
             ],
+            "mainPic": "img/oasis_mandala/20201129_113241r.webp",
             "pictures" : [
-                {
-                    "img": "img/oasis_mandala/20201123_183315c.webp",
-                    "date": "23 11 2020"
-                }
+                "img/oasis_mandala/20201123_183315c.webp"
             ]
         },
         {
             "id": 3,
-            "link": "projet3.html",
-            "img": "img/plaid_annie_beige/20201106_150400r.webp",
-            "date": "06 11 2020",
+            "title": "Plaid Annie Beige",
             "type": "Aiguilles",
-            "titleProject": "Projet n°3 : Plaid Annie Beige",
-            "subTitle": "Perros Annie",
-            "shortTitle": "Plaid Annie Beige",
-            "caracteristic": "Aiguilles 4.5",
             "duration": "01/09/2020 - 01/11/2020",
+            "comment": "Perros Annie",
             "wools": [
                 {
                     "brand": "Katia Aran Merino",
@@ -131,6 +78,7 @@
                 }
             ],
             "colors": ["3x Beige très clair '11'", "3x Beige clair '10'", "3x Beige '74'"],
+            "size": "Aiguilles 4.5",
             "productionDocuments": [
                 {
                     "documentName": "Mon Drive"
@@ -140,73 +88,29 @@
                     "documentName": "Plaid Annie Beige"
                 }
             ],
+            "mainPic": "img/plaid_annie_beige/20201106_150400r.webp",
             "pictures" : [
-                {
-                    "img": "img/plaid_annie_beige/20200901_190226c.webp",
-                    "date": "01 09 2020"
-                },
-                {
-                    "img": "img/plaid_annie_beige/20200908_132746c.webp",
-                    "date": "08 09 2020"
-                },
-                {
-                    "img": "img/plaid_annie_beige/20200915_135946c.webp",
-                    "date": "15 09 2020"
-                },
-                {
-                    "img": "img/plaid_annie_beige/20200916_160728c.webp",
-                    "date": "16 09 2020"
-                },
-                {
-                    "img": "img/plaid_annie_beige/20200918_150228c.webp",
-                    "date": "18 09 2020"
-                },
-                {
-                    "img": "img/plaid_annie_beige/20200920_142643c.webp",
-                    "date": "20 09 2020"
-                },
-                {
-                    "img": "img/plaid_annie_beige/20200920_142651c.webp",
-                    "date": "20 09 2020"
-                },
-                {
-                    "img": "img/plaid_annie_beige/20200920_142656c.webp",
-                    "date": "20 09 2020"
-                },
-                {
-                    "img": "img/plaid_annie_beige/20200920_142710c.webp",
-                    "date": "20 09 2020"
-                },
-                {
-                    "img": "img/plaid_annie_beige/20200930_165717c.webp",
-                    "date": "30 09 2020"
-                },
-                {
-                    "img": "img/plaid_annie_beige/20201007_135222c.webp",
-                    "date": "07 10 2020"
-                },
-                {
-                    "img": "img/plaid_annie_beige/20201029_085433c.webp",
-                    "date": "29 10 2020"
-                },
-                {
-                    "img": "img/plaid_annie_beige/20201106_104514c.webp",
-                    "date": "06 11 2020"
-                }
+                "img/plaid_annie_beige/20200901_190226c.webp",
+                "img/plaid_annie_beige/20200908_132746c.webp",
+                "img/plaid_annie_beige/20200915_135946c.webp",
+                "img/plaid_annie_beige/20200916_160728c.webp",
+                "img/plaid_annie_beige/20200918_150228c.webp",
+                "img/plaid_annie_beige/20200920_142643c.webp",
+                "img/plaid_annie_beige/20200920_142651c.webp",
+                "img/plaid_annie_beige/20200920_142656c.webp",
+                "img/plaid_annie_beige/20200920_142710c.webp",
+                "img/plaid_annie_beige/20200930_165717c.webp",
+                "img/plaid_annie_beige/20201007_135222c.webp",
+                "img/plaid_annie_beige/20201029_085433c.webp",
+                "img/plaid_annie_beige/20201106_104514c.webp"
             ]
         },
         {
             "id": 4,
-            "link": "projet4.html",
-            "img": "img/entomology/20210108_183915r.webp",
-            "date": "08 01 2021",
+            "title": "Entomology",
             "type": "Crochet",
-            "typeStyle": "crochet",
-            "titleProject": "Projet n°4 : Entomology",
-            "subTitle": "Perros Paulo",
-            "shortTitle": "Entomology",
-            "caracteristic": "Hook A 3.5, Hoobk B 3.0",
             "duration": "01/12/2020 - 01/08/2021",
+            "comment": "Perros Paulo",
             "wools": [
                 {
                     "brand": "Scheepjes Stone Washed",
@@ -218,6 +122,7 @@
                 }
             ],
             "colors": ["10x C1 Smokey Quartz '802'", "4x C2 Blue Apatite '805'", "3x C3 Rhine '952' (RW)", "4x C4 Amazonite '813'", "5x C5 Black Onyx '803'", "4x C6 Obsidian '829'", "3x C7 Tiber '958' (RW)", "5x C8 Enstatite '832'"],
+            "size": "Hook A 3.5, Hoobk B 3.0",
             "productionDocuments": [
                 {
                     "documentName": "Mon Drive"
@@ -227,52 +132,24 @@
                     "documentName": "Site Scheepjes"
                 }
             ],
+            "mainPic": "img/entomology/20210108_183915r.webp",
             "pictures" : [
-                {
-                    "img": "img/entomology/20201201_185046c.webp",
-                    "date": "01 12 2020"
-                },
-                {
-                    "img": "img/entomology/20201203_142826c.webp",
-                    "date": "03 12 2020"
-                },
-                {
-                    "img": "img/entomology/20201203_170903c.webp",
-                    "date": "03 12 2020"
-                },
-                {
-                    "img": "img/entomology/20201205_130402c.webp",
-                    "date": "05 12 2020"
-                },
-                {
-                    "img": "img/entomology/20201211_201528c.webp",
-                    "date": "11 12 2020"
-                },
-                {
-                    "img": "img/entomology/20201220_152301c.webp",
-                    "date": "20 12 2020"
-                },
-                {
-                    "img": "img/entomology/20201222_153410c.webp",
-                    "date": "22 12 2020"
-                },
-                {
-                    "img": "img/entomology/20210107_093150c.webp",
-                    "date": "07 01 2021"
-                }
+                "img/entomology/20201201_185046c.webp",
+                "img/entomology/20201203_142826c.webp",
+                "img/entomology/20201203_170903c.webp",
+                "img/entomology/20201205_130402c.webp",
+                "img/entomology/20201211_201528c.webp",
+                "img/entomology/20201220_152301c.webp",
+                "img/entomology/20201222_153410c.webp",
+                "img/entomology/20210107_093150c.webp"
             ]
         },
         {
             "id": 5,
-            "link": "projet5.html",
-            "img": "img/plaid_manu_bleu/20210225_163956r.webp",
-            "date": "25 02 2021",
+            "title": "Plaid Manu Bleu",
             "type": "Aiguilles",
-            "titleProject": "Projet n°5 : Plaid Manu Bleu",
-            "subTitle": "Perros Manu",
-            "shortTitle": "Plaid Manu Bleu",
-            "caracteristic": "Aiguilles 4.5",
             "duration": "01/2021 - 02/2021",
+            "comment": "Perros Manu",
             "wools": [
                 {
                     "brand": "Katia Aran Merino",
@@ -280,6 +157,7 @@
                 }
             ],
             "colors": ["3x Beige très clair '10'", "3x Bleu ciel '68'", "3x Bleu jean '79'"],
+            "size": "Aiguilles 4.5",
             "productionDocuments": [
                 {
                     "documentName": "Mon Drive"
@@ -289,56 +167,25 @@
                     "documentName": "Plaid Manu Bleu"
                 }
             ],
+            "mainPic": "img/plaid_manu_bleu/20210225_163956r.webp",
             "pictures" : [
-                {
-                    "img": "img/plaid_manu_bleu/20210112_100432c.webp",
-                    "date": "12 01 2021"
-                },
-                {
-                    "img": "img/plaid_manu_bleu/20210113_134552c.webp",
-                    "date": "13 01 2021"
-                },
-                {
-                    "img": "img/plaid_manu_bleu/20210115_104227c.webp",
-                    "date": "15 01 2021"
-                },
-                {
-                    "img": "img/plaid_manu_bleu/20210117_101347c.webp",
-                    "date": "17 01 2021"
-                },
-                {
-                    "img": "img/plaid_manu_bleu/20210127_144318(0)c.webp",
-                    "date": "27 01 2021"
-                },
-                {
-                    "img": "img/plaid_manu_bleu/20210206_132436c.webp",
-                    "date": "06 02 2021"
-                },
-                {
-                    "img": "img/plaid_manu_bleu/20210213_100442c.webp",
-                    "date": "13 02 2021"
-                },
-                {
-                    "img": "img/plaid_manu_bleu/20210225_115631c.webp",
-                    "date": "25 02 2021"
-                },
-                {
-                    "img": "img/plaid_manu_bleu/20210225_164018c.webp",
-                    "date": "25 02 2021"
-                }
+                "img/plaid_manu_bleu/20210112_100432c.webp",
+                "img/plaid_manu_bleu/20210113_134552c.webp",
+                "img/plaid_manu_bleu/20210115_104227c.webp",
+                "img/plaid_manu_bleu/20210117_101347c.webp",
+                "img/plaid_manu_bleu/20210127_144318(0)c.webp",
+                "img/plaid_manu_bleu/20210206_132436c.webp",
+                "img/plaid_manu_bleu/20210213_100442c.webp",
+                "img/plaid_manu_bleu/20210225_115631c.webp",
+                "img/plaid_manu_bleu/20210225_164018c.webp"
             ]
         },
         {
             "id": 6,
-            "link": "projet6.html",
-            "img": "img/plaid_annie_rouge/20210519_112634r.webp",
-            "date": "19 05 2021",
+            "title": "Plaid Annie Rouge",
             "type": "Aiguilles",
-            "titleProject": "Projet n°6 : Plaid Annie Rouge",
-            "subTitle": "Perros Annie",
-            "shortTitle": "Plaid Annie Rouge",
-            "caracteristic": "Aiguilles 4.5",
             "duration": "03/2021 - 05/2021",
+            "comment": "Perros Annie",
             "wools": [
                 {
                     "brand": "Katia Aran Merino",
@@ -346,6 +193,7 @@
                 }
             ],
             "colors": ["5x Rouge rubis '21'", "5x Rouge '4'", "4x Grenat clair '51'", "4x Jaune '80'"],
+            "size": "Aiguilles 4.5",
             "productionDocuments": [
                 {
                     "documentName": "Mon Drive"
@@ -355,89 +203,217 @@
                     "documentName": "Plaid Annie Rouge"
                 }
             ],
+            "mainPic": "img/plaid_annie_rouge/20210519_112634r.webp",
             "pictures" : [
-                {
-                    "img": "img/plaid_annie_rouge/20210322_104148c.webp",
-                    "date": "22 03 2021"
-                },
-                {
-                    "img": "img/plaid_annie_rouge/20210326_073440c.webp",
-                    "date": "26 03 2021"
-                },
-                {
-                    "img": "img/plaid_annie_rouge/20210331_094947c.webp",
-                    "date": "31 03 2021"
-                },
-                {
-                    "img": "img/plaid_annie_rouge/20210402_153333c.webp",
-                    "date": "02 04 2021"
-                },
-                {
-                    "img": "img/plaid_annie_rouge/20210410_173903c.webp",
-                    "date": "10 04 2021"
-                },
-                {
-                    "img": "img/plaid_annie_rouge/20210413_114052c.webp",
-                    "date": "13 04 2021"
-                },
-                {
-                    "img": "img/plaid_annie_rouge/20210413_174654c.webp",
-                    "date": "13 04 2021"
-                },
-                {
-                    "img": "img/plaid_annie_rouge/20210415_092635c.webp",
-                    "date": "15 04 2021"
-                },
-                {
-                    "img": "img/plaid_annie_rouge/20210416_110214c.webp",
-                    "date": "16 04 2021"
-                },
-                {
-                    "img": "img/plaid_annie_rouge/20210417_192322c.webp",
-                    "date": "17 04 2021"
-                },
-                {
-                    "img": "img/plaid_annie_rouge/20210420_154103c.webp",
-                    "date": "20 04 2021"
-                },
-                {
-                    "img": "img/plaid_annie_rouge/20210426_193423c.webp",
-                    "date": "26 04 2021"
-                },
-                {
-                    "img": "img/plaid_annie_rouge/20210501_164930c.webp",
-                    "date": "01 05 2021"
-                },
-                {
-                    "img": "img/plaid_annie_rouge/20210508_155358c.webp",
-                    "date": "08 05 2021"
-                },
-                {
-                    "img": "img/plaid_annie_rouge/20210515_173923c.webp",
-                    "date": "15 05 2021"
-                },
-                {
-                    "img": "img/plaid_annie_rouge/20210517_091825c.webp",
-                    "date": "17 05 2021"
-                },
-                {
-                    "img": "img/plaid_annie_rouge/20210529_120806c.webp",
-                    "date": "29 05 2021"
-                }
+                "img/plaid_annie_rouge/20210322_104148c.webp",
+                "img/plaid_annie_rouge/20210326_073440c.webp",
+                "img/plaid_annie_rouge/20210331_094947c.webp",
+                "img/plaid_annie_rouge/20210402_153333c.webp",
+                "img/plaid_annie_rouge/20210410_173903c.webp",
+                "img/plaid_annie_rouge/20210413_114052c.webp",
+                "img/plaid_annie_rouge/20210413_174654c.webp",
+                "img/plaid_annie_rouge/20210415_092635c.webp",
+                "img/plaid_annie_rouge/20210416_110214c.webp",
+                "img/plaid_annie_rouge/20210417_192322c.webp",
+                "img/plaid_annie_rouge/20210420_154103c.webp",
+                "img/plaid_annie_rouge/20210426_193423c.webp",
+                "img/plaid_annie_rouge/20210501_164930c.webp",
+                "img/plaid_annie_rouge/20210508_155358c.webp",
+                "img/plaid_annie_rouge/20210515_173923c.webp",
+                "img/plaid_annie_rouge/20210517_091825c.webp",
+                "img/plaid_annie_rouge/20210529_120806c.webp"
             ]
         },
         {
             "id": 7,
-            "link": "projet7.html",
-            "img": "img/baby_henry_blanket/20211201_182133c.webp",
-            "date": "01 12 2021",
+            "title": "Sophie Universe",
             "type": "Crochet",
-            "typeStyle": "crochet",
-            "titleProject": "Projet n°7 : Baby Henri Blanket",
-            "subTitle": "Avignon Marielle",
-            "shortTitle": "Baby Henri Blanket",
-            "caracteristic": "Hook 3",
+            "duration": "12/2020 - 04/2021",
+            "comment": "Lencloître Véro",
+            "wools": [
+                {
+                    "brand": "Scheepjes Softfun",
+                    "link": "https://lesciseauxmagiques.fr/laine-scheepjes/scheepjes-softfun-4643.html"
+                }
+            ],
+            "colors": ["5x Light blue '2432'", "3x Olive '2531'", "3x Cyclamen '2534'", "2x Violet '2519'", "2x Canary '2518'", "3x Rose '2514'", "2x Light rose '2513'", "1x Dark turquoise '2511'", "2x Heath (aubergine) '2493'", "2x Bordeaux '2492'", "2x Pink '2480'"],
+            "size": "Hook 4",
+            "productionDocuments": [
+                {
+                    "documentName": "Mon Drive et Sophie Universe"
+                },
+                {
+                    "documentName": "Vidéo",
+                    "documentLink": "https://www.youtube.com/playlist?list=PLIDczlK4bVDWWQ3N7Y9FiNtzcijrz2Ovw"
+                },
+                {
+                    "documentName": "Sophie Universe part 1",
+                    "documentLink": "https://drive.google.com/file/d/1d7bTp4a4576Nin5WCMG5aDrdJmi-y0_V/view?usp=sharing"
+                },
+                {
+                    "documentName": "Sophie Universe part 2",
+                    "documentLink": "https://drive.google.com/file/d/12eHhOUC6KM5pFJ9gvf1wTTBbQC4KMBme/view?usp=sharing"
+                },
+                {
+                    "documentName": "Sophie Universe part 3",
+                    "documentLink": "https://drive.google.com/file/d/1ZTHmRuHkUqd1J1vz8mxPPl8xcpBzARyv/view?usp=sharing"
+                },
+                {
+                    "documentName": "Sophie Universe part 4",
+                    "documentLink": "https://drive.google.com/file/d/1I-eKYqkx5_yZIExF8PbKwztl_WrrTAjG/view?usp=sharing"
+                },
+                {
+                    "documentName": "Sophie Universe part 5",
+                    "documentLink": "https://drive.google.com/file/d/15QxZuTPIUN0CDILXWi53Xcatyp9DwYwu/view?usp=sharing"
+                },
+                {
+                    "documentName": "Sophie Universe part 6",
+                    "documentLink": "https://drive.google.com/file/d/1A8kSXGUkjc8VSEmfBjyIEiRwH11XUV9a/view?usp=sharing"
+                },
+                {
+                    "documentName": "Sophie Universe part 7",
+                    "documentLink": "https://drive.google.com/file/d/1sOhr5ErEm-FeVWxpXheFyZOhqQaK8YOj/view?usp=sharing"
+                },
+                {
+                    "documentName": "Sophie Universe part 8",
+                    "documentLink": "https://drive.google.com/file/d/1RKl1i1Tcvj3P3FjpM7en-PN_JpAHssBH/view?usp=sharing"
+                },
+                {
+                    "documentName": "Sophie Universe part 9",
+                    "documentLink": "https://drive.google.com/file/d/1tITj9Ak6uMZ3r4Bek2F6mLWCpDgYpWLL/view?usp=sharing"
+                },
+                {
+                    "documentName": "Sophie Universe part 10",
+                    "documentLink": "https://drive.google.com/file/d/1frCs7LEDCNyO4xIuWYyXduLhAexaQWhn/view?usp=sharing"
+                },
+                {
+                    "documentName": "Sophie Universe part 11",
+                    "documentLink": "https://drive.google.com/file/d/1zXgGJqUmB3FqultvFGrAsn_1lsFBlGCk/view?usp=sharing"
+                },
+                {
+                    "documentName": "Sophie Universe part 12",
+                    "documentLink": "https://drive.google.com/file/d/1GCjfTwH1Pashg9WAdZi1onbay9gWbFi1/view?usp=sharing"
+                },
+                {
+                    "documentName": "Sophie Universe part 13",
+                    "documentLink": "https://drive.google.com/file/d/1HOefD678pW_SRhbJRJPhOzOoe2UBNiVu/view?usp=sharing"
+                },
+                {
+                    "documentName": "Sophie Universe part 14",
+                    "documentLink": "https://drive.google.com/file/d/1VfIJmLnfhW-s5T7Fi20TLyMaGzDTL8yM/view?usp=sharing"
+                },
+                {
+                    "documentName": "Sophie Universe part 15",
+                    "documentLink": "https://drive.google.com/file/d/1wR1WtFy6l9zeb05OLnvUq1zIgiLyz0jO/view?usp=sharing"
+                },
+                {
+                    "documentName": "Sophie Universe part 16",
+                    "documentLink": "https://drive.google.com/file/d/1nfUDczEpMm4Y0qCaOZrrUqkgwi8c413Z/view?usp=sharing"
+                },
+                {
+                    "documentName": "Sophie Universe part 17",
+                    "documentLink": "https://drive.google.com/file/d/1Ni2b9KblXjqbToaX13po5xc9QrE7Ht3i/view?usp=sharing"
+                },
+                {
+                    "documentName": "Sophie Universe part 18",
+                    "documentLink": "https://drive.google.com/file/d/1h8Rd46Q9JJjW0BRNsf-tyiVow79v6F05/view?usp=sharing"
+                }
+            ],
+            "mainPic": "img/sophie_universe/20210522_203754r.webp",
+            "pictures" : [
+                "img/sophie_universe/20201215_105521c.webp",
+                "img/sophie_universe/20210303_172102c.webp",
+                "img/sophie_universe/20210307_120704c.webp",
+                "img/sophie_universe/20210310_164632c.webp",
+                "img/sophie_universe/20210313_095326c.webp",
+                "img/sophie_universe/20210315_135335c.webp",
+                "img/sophie_universe/20210319_090735c.webp",
+                "img/sophie_universe/20210328_200122c.webp"
+            ]
+        },
+        {
+            "id": 8,
+            "title": "Overlay Mandala N°6",
+            "type": "Crochet",
+            "duration": "05/2021 - 06/2021",
+            "comment": "Draveil Bas",
+            "wools": [
+                {
+                    "brand": "Schachenmayer Catania 100% coton",
+                    "link": "https://lesciseauxmagiques.fr/laine/schachenmayr-catania-3405.html"
+                }
+            ],
+            "colors": ["9x Jeans '164'", "8x Capri '384'", "6x Or '249'", "6x Gris '22021'", "8x Lin '248'"],
+            "size": "Hook 4",
+            "productionDocuments": [
+                {
+                    "documentName": "Mon Drive et Overlay Mandala 6"
+                },
+                {
+                    "documentName": "Pattern Mandala",
+                    "documentLink": "https://drive.google.com/file/d/1R5IdFaCoNYVWptN-NF8c2-oEsxKaeJ3q/view?usp=sharing"
+                }
+            ],
+            "mainPic": "img/overlay_mandala/20210619_072343r.webp",
+            "pictures" : [
+                "img/overlay_mandala/20210529_190127c.webp",
+                "img/overlay_mandala/20210530_163723c.webp",
+                "img/overlay_mandala/20210604_090314c.webp",
+                "img/overlay_mandala/20210609_110941c.webp"
+            ]
+        },
+        {
+            "id": 9,
+            "title": "Planète",
+            "type": "Aiguilles",
+            "duration": "09/2021 - 10/2021",
+            "comment": "Perros Paulo",
+            "wools": [
+                {
+                    "brand": "Scheepjes Colour Crafter Acrylique 100%",
+                    "link": "https://lesciseauxmagiques.fr/laine-scheepjes/scheepjes-colour-crafter-6215.html"
+                }
+            ],
+            "colors": ["8x Bleu (Den Helder) '1068'", "2x Violet (Harlingen) '1825'", "1x Blanc (Heerenveen) '1023'", "1x Vert clair (Temeuzen) '1821'", "1x Jaune (Eindhoven) '1114'", "1x Beige (Veenendaal) '1064'", "1x Rose pale (Venlo) '1080', ", "1x Rose foncé (Tiel) '1023'", "1x (Emmen) '1080'", "Grande longueur !"],
+            "size": "Aiguille 4",
+            "productionDocuments": [
+                {
+                    "documentName": "Mon Drive et Planète"
+                },
+                {
+                    "documentName": "Around the world 1",
+                    "documentLink": "https://drive.google.com/file/d/1SNZjqiHwCCUdIuoS_oZx9Y85Q6F7vkoM/view?usp=sharing"
+                },
+                {
+                    "documentName": "Around the world 2",
+                    "documentLink": "https://drive.google.com/file/d/1T-vkfGQHcr8WS1EakfaV_J8y8wF2B9qQ/view?usp=sharing"
+                },
+                {
+                    "documentName": "Plaid around graphique",
+                    "documentLink": "https://docs.google.com/document/d/1fSrEo9zpCNCWbpxd5mKvANLhHexNM_6m/edit?usp=sharing&ouid=103563467312489392346&rtpof=true&sd=true"
+                },
+                {
+                    "documentName": "Planworld",
+                    "documentLink": "https://docs.google.com/document/d/1YBHovm35GOwBB-4gTi-igGSl_DHYqsRG/edit?usp=sharing&ouid=103563467312489392346&rtpof=true&sd=trueg"
+                }
+            ],
+            "mainPic": "img/planete/20211030_094013r.webp",
+            "pictures" : [
+                "img/planete/20210909_112630c.webp",
+                "img/planete/20210915_105609c.webp",
+                "img/planete/20210920_121543c.webp",
+                "img/planete/20210924_105052c.webp",
+                "img/planete/20211013_180624c.webp",
+                "img/planete/20211013_190013c.webp",
+                "img/planete/20211022_115444c.webp"
+            ]
+        },
+        {
+            "id": 10,
+            "title": "Baby Henri Blanket",
+            "type": "Crochet",
             "duration": "06/2021 - 08/2021",
+            "comment": "Avignon Marielle",
             "wools": [
                 {
                     "brand": "Schachenmayer Catania 100% coton",
@@ -445,49 +421,272 @@
                 }
             ],
             "colors": ["6x Bleu Marine Jeans '164'", "6x Bleu Capri '384'", "4x Jaune Or '249'", "5x Gris '22021'", "3x Champagne Lin '248'"],
+            "size": "Hook 3",
             "productionDocuments": [
                 {
                     "documentName": "Mon Drive et Baby Henri Bllanketa"
                 }
             ],
+            "mainPic": "img/baby_henry_blanket/20211201_182133c.webp",
             "pictures" : [
-                {
-                    "img": "img/baby_henry_blanket/20210618_124901r.webp",
-                    "date": "19 06 2021"
-                },
-                {
-                    "img": "img/baby_henry_blanket/20210629_151732c.webp",
-                    "date": "29 06 2021"
-                },
-                {
-                    "img": "img/baby_henry_blanket/20210715_182052c.webp",
-                    "date": "15 07 2021"
-                },
-                {
-                    "img": "img/baby_henry_blanket/20210720_162800c.webp",
-                    "date": "20 07 2021"
-                },
-                {
-                    "img": "img/baby_henry_blanket/20210802_172838c.webp",
-                    "date": "02 08 2021"
-                },
-                {
-                    "img": "img/baby_henry_blanket/20210804_200122c.webp",
-                    "date": "04 08 2021"
-                },
-                {
-                    "img": "img/baby_henry_blanket/20210815_101543c.webp",
-                    "date": "15 08 2021"
-                }
+                "img/baby_henry_blanket/20210618_124901r.webp",
+                "img/baby_henry_blanket/20210629_151732c.webp",
+                "img/baby_henry_blanket/20210715_182052c.webp",
+                "img/baby_henry_blanket/20210720_162800c.webp",
+                "img/baby_henry_blanket/20210802_172838c.webp",
+                "img/baby_henry_blanket/20210804_200122c.webp",
+                "img/baby_henry_blanket/20210815_101543c.webp"
             ]
         },
         {
-            "link": "#",
-            "img": "img/inProgress.jpg",
-            "date": "En cours",
+            "id": 11,
+            "title": "Botanic Plaid",
+            "type": "Crochet",
+            "duration": "09/2021 - 01/2022",
+            "comment": "Saint-Brice Isa",
+            "wools": [
+                {
+                    "brand": "Scheepjes Catona",
+                    "link": "https://lesciseauxmagiques.fr/laine-scheepjes/scheepjes-catona-4341.html"
+                }
+            ],
+            "colors": ["2x Green Yellow '245'", "3x Sage green '212'", "4x Apple green '389'", "5x Spruce (Vert foncé) '244'", "6x Kiwi '205'", "4x Parrot green '241'", "16x Bridal White '105'", "7x Emerald '515'"],
+            "size": "Hook 3.5",
+            "productionDocuments": [
+                {
+                    "documentName": "Mon Drive et Botanica Plaid"
+                },
+                {
+                    "documentName": "Vidéo",
+                    "documentLink": "https://www.youtube.com/playlist?list=PLCZnKEb9VzY0g_D0L_hc3U_1OTY2IOKpZ"
+                },
+                {
+                    "documentName": "Botanica Catona",
+                    "documentLink": "https://drive.google.com/file/d/1dj2eTDT-CifgBkoEUbSmWnU5j-bIgb4e/view?usp=sharing"
+                }
+            ],
+            "mainPic": "img/botanic_plaid/20220113_093851r.webp",
+            "pictures" : [
+                "img/botanic_plaid/20210909_112518c.webp",
+                "img/botanic_plaid/20211030_120940c.webp",
+                "img/botanic_plaid/20211031_165247c.webp",
+                "img/botanic_plaid/20211102_151234c.webp",
+                "img/botanic_plaid/20211108_141031c.webp",
+                "img/botanic_plaid/20211116_105548c.webp",
+                "img/botanic_plaid/20211119_162131c.webp",
+                "img/botanic_plaid/20211216_111445c.webp",
+                "img/botanic_plaid/20220126_110814c.webp"
+            ]
+        },
+        {
+            "id": 12,
+            "title": "Entomology 2",
+            "type": "Crochet",
+            "duration": "01/2022 - 03/2022",
+            "comment": "Perros Paulo",
+            "wools": [
+                {
+                    "brand": "Scheepjes Stone Washed",
+                    "link": "https://lesciseauxmagiques.fr/laine-scheepjes/scheepjes-stone-washed-4843.html"
+                },
+                {
+                    "brand": "Scheepjes River Washed",
+                    "link": "https://lesciseauxmagiques.fr/laine-scheepjes/scheepjes-river-washed-4842.html"
+                }
+            ],
+            "colors": ["11x C1 Moon Stone '801'", "2x C2 Blue Apatite '805'", "2x C3 Rhine (RW) '952'", "3x C4 Amazonite '813'", "5x C5 Smokey Quartz '802'", "4x C6 Boulder Opal '804'", "3x C7 Tiber (RW) '958'", "4x C8 Yellow Jasper '809'"],
+            "size": "Hook 4",
+            "productionDocuments": [
+                {
+                    "documentName": "Mon Drive et Entomology"
+                },
+                {
+                    "documentName": "Entomology",
+                    "documentLink": "https://www.scheepjes.com/en/cals-and-mals/scheepjes-cals/scheepjes-cal-2020-dhistoire-naturelle/information/"
+                }
+            ],
+            "mainPic": "img/entomology2/20221030_094932r.webp",
+            "pictures" : [
+                "img/entomology2/20220115_184554c.webp",
+                "img/entomology2/20220116_111618c.webp",
+                "img/entomology2/20220117_160255c.webp",
+                "img/entomology2/20220119_171140c.webp",
+                "img/entomology2/20220129_155019c.webp",
+                "img/entomology2/20220211_121413c.webp",
+                "img/entomology2/20220224_113651c.webp",
+                "img/entomology2/20220327_163207c.webp"
+            ]
+        },
+        {
+            "id": 13,
+            "title": "Entomology 3",
+            "type": "Crochet",
+            "duration": "03/2022 - 05/2022",
+            "comment": "Perros Paulo",
+            "wools": [
+                {
+                    "brand": "Merino Aran",
+                    "link": "https://lesciseauxmagiques.fr/laines/katia-merino-aran-1809.html"
+                }
+            ],
+            "colors": ["?x C1 Beige très clair '11'", "?x C2 Orange '50'", "?x C4 Jaune '80'", "?x C5 Beige moyen '9'", "?x C8 Jaune sable '90'", "?x Beige clair '10'", "?x Corail '72'"],
+            "size": "Hook 4",
+            "productionDocuments": [
+                {
+                    "documentName": "Mon Drive et Entomology"
+                },
+                {
+                    "documentName": "Entomology",
+                    "documentLink": "https://www.scheepjes.com/en/cals-and-mals/scheepjes-cals/scheepjes-cal-2020-dhistoire-naturelle/information/"
+                }
+            ],
+            "mainPic": "img/entomology3/20220501_173317r.webp",
+            "pictures" : [
+                "img/entomology3/20220325_175013c.webp",
+                "img/entomology3/20220328_154248c.webp",
+                "img/entomology3/20220401_155335c.webp",
+                "img/entomology3/20220404_171222c.webp",
+                "img/entomology3/20220411_154247c.webp",
+                "img/entomology3/20220419_154217c.webp"
+            ]
+        },
+        {
+            "id": 14,
+            "title": "Pull Steve McQueen",
+            "type": "Aiguilles",
+            "duration": "06/2022 - 07/2022",
+            "comment": "Moi",
+            "wools": [
+                {
+                    "brand": "Laine Transhumance",
+                    "link": "https://bergers-cathares.com/"
+                }
+            ],
+            "colors": ["13x Perle"],
+            "size": "Aiguilles 4",
+            "productionDocuments": [
+                {
+                    "documentName": "Mon Drive et Pull Steve McQueen"
+                },
+                {
+                    "documentName": "Pull irlandais Steve McQueen",
+                    "documentLink": "https://drive.google.com/file/d/1x2IDreuuzVd_n-77NYO7ZSlq5FCDLBih/view?usp=sharing"
+                },
+                {
+                    "documentName": "Pull Steve McQueen",
+                    "documentLink": "https://drive.google.com/file/d/1UT4mbdMWseMNUmxeyCR7ffhSCwi4qx_S/view?usp=sharing"
+                }
+            ],
+            "mainPic": "img/pull_steve_mcqueen/20220718_191158r.webp",
+            "pictures" : [
+                "img/pull_steve_mcqueen/20220604_104035c.webp",
+                "img/pull_steve_mcqueen/20220701_154103c.webp",
+                "img/pull_steve_mcqueen/20220720_162333c.webp"
+            ]
+        },
+        {
+            "id": 15,
+            "title": "Espiritu del sol",
+            "type": "Crochet",
+            "duration": "10/2022 - 06/2023",
+            "comment": "Draveil Base",
+            "wools": [
+                {
+                    "brand": "Scheepjes Catona",
+                    "link": "https://drive.google.com/file/d/1dj2eTDT-CifgBkoEUbSmWnU5j-bIgb4e/view?usp=sharing"
+                }
+            ],
+            "colors": ["?x Green Yellow '245'","?x Sage green '212'","?x Apple green '389'","?x Spruce (vert foncé) '244'","?x Kiwi '205'","?x Parrot green '241'","?x Bridal White '105'","?x Emerald '515'","Doc Prélude pour les quantités"],
+            "size": "Hook 3.5",
+            "productionDocuments": [
+                {
+                    "documentName": "Mon Drive et Espiritu del sol"
+                }
+            ],
+            "mainPic": "img/espiritu_del_sol/20230123_121937r.webp",
+            "pictures" : [
+                "img/espiritu_del_sol/20221020_102740c.webp",
+                "img/espiritu_del_sol/20221020_144352c.webp",
+                "img/espiritu_del_sol/20221021_180746c.webp",
+                "img/espiritu_del_sol/20221024_162154c.webp",
+                "img/espiritu_del_sol/20221031_102454c.webp",
+                "img/espiritu_del_sol/20221115_104505c.webp",
+                "img/espiritu_del_sol/20221126_154051c.webp",
+                "img/espiritu_del_sol/20221201_104224c.webp",
+                "img/espiritu_del_sol/20230323_125318c.webp"
+            ]
+        },
+        {
+            "id": 16,
+            "title": "Pull Irlandais Terre",
+            "type": "Aiguilles",
+            "duration": "01/2023 - 03/2023",
+            "comment": "Paulo",
+            "wools": [
+                {
+                    "brand": "Laine Transhumance",
+                    "link": "https://bergers-cathares.com/"
+                }
+            ],
+            "colors": ["14x Grès"],
+            "size": "Aiguilles 4",
+            "productionDocuments": [
+                {
+                    "documentName": "Mon Drive et Purl Irlandais Terre"
+                },
+                {
+                    "documentName": "Pull irlandais Terre",
+                    "documentLink": "https://drive.google.com/file/d/10vrAX8cKbsQ7cnzUC-W2gWSYuRDO7wa1/view?usp=sharing"
+                },
+                {
+                    "documentName": "Pull irlandais",
+                    "documentLink": "https://drive.google.com/file/d/1SxjqePoR-qhZlPIXSfK5jxmbDI08FLq4/view?usp=sharing"
+                }
+            ],
+            "mainPic": "img/pull_irlandais_terre/20230329_202017r.webp",
+            "pictures" : []
+        },
+        {
+            "id": 17,
+            "title": "Magnific Cat",
+            "type": "Crochet",
+            "duration": "02/2023 - 03/2023",
+            "comment": "Draveil Base",
+            "wools": [
+                {
+                    "brand": "Schachenmayer Catania 100% coton",
+                    "link": "https://lesciseauxmagiques.fr/laine/schachenmayr-catania-3405.html"
+                }
+            ],
+            "colors": ["?x Blanc '105'", "?x Fox '426'"],
+            "size": "Hook 3",
+            "productionDocuments": [
+                {
+                    "documentName": "Mon Drive et Magnific Cat"
+                },
+                {
+                    "documentName": "Magnific Cat",
+                    "documentLink": "https://drive.google.com/file/d/1DD8-_wnMSOd1qxqoJEYsPK1wrZSKKqWN/view?usp=sharing"
+                },
+                {
+                    "documentName": "Pattern Magnific Cat",
+                    "documentLink": "https://drive.google.com/file/d/1ACLlgZ5N4s7E76sGOYgavac1MDkRy2pm/view?usp=sharing"
+                }
+            ],
+            "mainPic": "img/magnific_cat/20230521_152523r.webp",
+            "pictures" : [
+                "img/magnific_cat/20230324_152115c.webp",
+                "img/magnific_cat/20230521_102311c.webp",
+                "img/magnific_cat/20230521_152523c.webp",
+                "img/magnific_cat/20230607_090749c.webp",
+                "img/magnific_cat/20230607_091103c.webp"
+            ]
+        },
+        {
+            "title": "Titre",
             "type": "Inconnu",
-            "titleProject": "Projet n° : Titre",
-            "subTitle": "En cours"
+            "comment": "En cours",
+            "mainPic": "img/inProgress.jpg"
         }
     ],
     "links": [
