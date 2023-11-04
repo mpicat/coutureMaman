@@ -4,9 +4,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>La Tricoteuse</title>
+    <title>La Tricoteuse : Projet</title>
     <meta name="robots" content="index, follow" />
-    <meta name="description" content="Décourez mes projets tricots sur la toile !" />
+    <meta name="description" content="Découvrez mes projets tricots sur la toile !" />
     <link rel="icon" type="icon/x-icon" href="img/icon.png" />
     <link rel="stylesheet" href="style/normalize.css" />
     <link rel="stylesheet" href="style/main.css" />
@@ -26,13 +26,19 @@
                     </div>
                 </a>
             </div>
-            <!-- liens récupérées dans la database -->
             <div class="header-links" id="links"></div>
         </header>
 
-        <!-- projets récupérées dans la database -->
-        <main id="projects"></main>
-        <script src="main.js"></script>
+        <section class="project-description">
+            <!-- carroussel -->
+            <div class="project-description__carroussel">
+                <div class="allSlides" id="allSlides"></div>
+                <div class="column" id="miniPictures"></div>
+            </div>
+
+            <div class="project-description__txt" id="project"></div>
+        </section>
+        <script src="project.js"></script>
     </div>
 </body>
 </html>

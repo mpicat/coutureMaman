@@ -1,0 +1,508 @@
+{
+    "projects":[
+        {
+            "id": 1,
+            "img": "img/plaid_covid/20200701_083415r.webp",
+            "date": "01 07 2020",
+            "type": "Aiguilles",
+            "titleProject": "Projet n°1 : Plaid Covid",
+            "subTitle": "Perros FX",
+            "shortTitle": "Plaid Covid",
+            "caracteristic": "Aiguilles 4.5",
+            "duration": "24/03/2020 - 01/07/2020",
+            "wools": [
+                {
+                    "brand": "Katia Aran Merino",
+                    "link": "https://www.katia.com/FR/fils-automne-hiver-merinoaran-816.html"
+                }
+            ],
+            "colors": ["10x Beige '11'", "10x Ecru '10'"],
+            "productionDocuments": [
+                {
+                    "documentName": "Mon Drive"
+                },
+                {
+                    "documentLink": "https://docs.google.com/document/d/e/2PACX-1vQViv8wKqedBT71hu2zlE38S7mEeCLI-RkIusc57usbf78aly_tEbCm6KSwEa4awXY5bj8ybcYoWvNk/pub",
+                    "documentName": "Plaid Helene Covid"
+                }
+            ],
+            "pictures" : [
+                {
+                    "img": "img/plaid_covid/20200404_111423c.webp",
+                    "date": "04 04 2020"
+                },
+                {
+                    "img": "img/plaid_covid/20200405_231048c.webp",
+                    "date": "05 04 2020"
+                },
+                {
+                    "img": "img/plaid_covid/20200408_102051c.webp",
+                    "date": "08 04 2020"
+                },
+                {
+                    "img": "img/plaid_covid/20200410_221031c.webp",
+                    "date": "10 04 2020"
+                },
+                {
+                    "img": "img/plaid_covid/20200413_145141c.webp",
+                    "date": "13 04 2020"
+                },
+                {
+                    "img": "img/plaid_covid/20200416_144104c.webp",
+                    "date": "16 04 2020"
+                },
+                {
+                    "img": "img/plaid_covid/20200417_101223c.webp",
+                    "date": "17 04 2020"
+                },
+                {
+                    "img": "img/plaid_covid/20200419_150511c.webp",
+                    "date": "19 04 2020"
+                },
+                {
+                    "img": "img/plaid_covid/20200422_114602c.webp",
+                    "date": "22 04 2020"
+                },
+                {
+                    "img": "img/plaid_covid/20200424_173808c.webp",
+                    "date": "24 04 2020"
+                },
+                {
+                    "img": "img/plaid_covid/20200511_161152c.webp",
+                    "date": "11 05 2020"
+                },
+                {
+                    "img": "img/plaid_covid/20200529_174412c.webp",
+                    "date": "29 05 2020"
+                },
+                {
+                    "img": "img/plaid_covid/20200604_175123c.webp",
+                    "date": "04 06 2020"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "link": "projet2.html",
+            "img": "img/oasis_mandala/20201129_113241r.webp",
+            "date": "29 11 2020",
+            "type": "Crochet",
+            "typeStyle": "crochet",
+            "titleProject": "Projet n°2 : Oasis Mandala",
+            "subTitle": "Brest Maëlys",
+            "shortTitle": "Oasis Mandala",
+            "caracteristic": "Hook 3.5",
+            "duration": "10/2020 - 11/2020",
+            "wools": [
+                {
+                    "brand": "Katia Basic Merino",
+                    "link": "https://www.katia.com/FR/fils-automne-hiver-basicmerino-793.html"
+                }
+            ],
+            "colors": ["1x Vert '80'", "1x Marron '82'", "1x Beige '83'", "1x Jaune '84'", "1x Mint '85'", "1x Bleu ciel '86'", "1x Rose '87'", "1x Ecru '3'"],
+            "productionDocuments": [
+                {
+                    "documentLink": "https://drive.google.com/file/d/1bx-jt3kEaXifYRV5zWaGuWHyRhmKqOzE/view?usp=sharing",
+                    "documentName": "Oasis Mandala"
+                }
+            ],
+            "pictures" : [
+                {
+                    "img": "img/oasis_mandala/20201123_183315c.webp",
+                    "date": "23 11 2020"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "link": "projet3.html",
+            "img": "img/plaid_annie_beige/20201106_150400r.webp",
+            "date": "06 11 2020",
+            "type": "Aiguilles",
+            "titleProject": "Projet n°3 : Plaid Annie Beige",
+            "subTitle": "Perros Annie",
+            "shortTitle": "Plaid Annie Beige",
+            "caracteristic": "Aiguilles 4.5",
+            "duration": "01/09/2020 - 01/11/2020",
+            "wools": [
+                {
+                    "brand": "Katia Aran Merino",
+                    "link": "https://www.katia.com/FR/fils-automne-hiver-merinoaran-816.html"
+                }
+            ],
+            "colors": ["3x Beige très clair '11'", "3x Beige clair '10'", "3x Beige '74'"],
+            "productionDocuments": [
+                {
+                    "documentName": "Mon Drive"
+                },
+                {
+                    "documentLink": "https://docs.google.com/document/d/e/2PACX-1vR0WloL51w7JkZkEXmLyJnjsUvmd0GgaAT8Z5-tZAnew77LrRKzxad1IEaXbyDEdhI_H_yQ-UxvjZg2/pub",
+                    "documentName": "Plaid Annie Beige"
+                }
+            ],
+            "pictures" : [
+                {
+                    "img": "img/plaid_annie_beige/20200901_190226c.webp",
+                    "date": "01 09 2020"
+                },
+                {
+                    "img": "img/plaid_annie_beige/20200908_132746c.webp",
+                    "date": "08 09 2020"
+                },
+                {
+                    "img": "img/plaid_annie_beige/20200915_135946c.webp",
+                    "date": "15 09 2020"
+                },
+                {
+                    "img": "img/plaid_annie_beige/20200916_160728c.webp",
+                    "date": "16 09 2020"
+                },
+                {
+                    "img": "img/plaid_annie_beige/20200918_150228c.webp",
+                    "date": "18 09 2020"
+                },
+                {
+                    "img": "img/plaid_annie_beige/20200920_142643c.webp",
+                    "date": "20 09 2020"
+                },
+                {
+                    "img": "img/plaid_annie_beige/20200920_142651c.webp",
+                    "date": "20 09 2020"
+                },
+                {
+                    "img": "img/plaid_annie_beige/20200920_142656c.webp",
+                    "date": "20 09 2020"
+                },
+                {
+                    "img": "img/plaid_annie_beige/20200920_142710c.webp",
+                    "date": "20 09 2020"
+                },
+                {
+                    "img": "img/plaid_annie_beige/20200930_165717c.webp",
+                    "date": "30 09 2020"
+                },
+                {
+                    "img": "img/plaid_annie_beige/20201007_135222c.webp",
+                    "date": "07 10 2020"
+                },
+                {
+                    "img": "img/plaid_annie_beige/20201029_085433c.webp",
+                    "date": "29 10 2020"
+                },
+                {
+                    "img": "img/plaid_annie_beige/20201106_104514c.webp",
+                    "date": "06 11 2020"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "link": "projet4.html",
+            "img": "img/entomology/20210108_183915r.webp",
+            "date": "08 01 2021",
+            "type": "Crochet",
+            "typeStyle": "crochet",
+            "titleProject": "Projet n°4 : Entomology",
+            "subTitle": "Perros Paulo",
+            "shortTitle": "Entomology",
+            "caracteristic": "Hook A 3.5, Hoobk B 3.0",
+            "duration": "01/12/2020 - 01/08/2021",
+            "wools": [
+                {
+                    "brand": "Scheepjes Stone Washed",
+                    "link": "https://lesciseauxmagiques.fr/laine-scheepjes/scheepjes-stone-washed-4843.html"
+                },
+                {
+                    "brand": "River Washed",
+                    "link": "https://lesciseauxmagiques.fr/laine-scheepjes/scheepjes-river-washed-4842.html"
+                }
+            ],
+            "colors": ["10x C1 Smokey Quartz '802'", "4x C2 Blue Apatite '805'", "3x C3 Rhine '952' (RW)", "4x C4 Amazonite '813'", "5x C5 Black Onyx '803'", "4x C6 Obsidian '829'", "3x C7 Tiber '958' (RW)", "5x C8 Enstatite '832'"],
+            "productionDocuments": [
+                {
+                    "documentName": "Mon Drive"
+                },
+                {
+                    "documentLink": "https://www.scheepjes.com/en/cals-and-mals/scheepjes-cals/scheepjes-cal-2020-dhistoire-naturelle/information/",
+                    "documentName": "Site Scheepjes"
+                }
+            ],
+            "pictures" : [
+                {
+                    "img": "img/entomology/20201201_185046c.webp",
+                    "date": "01 12 2020"
+                },
+                {
+                    "img": "img/entomology/20201203_142826c.webp",
+                    "date": "03 12 2020"
+                },
+                {
+                    "img": "img/entomology/20201203_170903c.webp",
+                    "date": "03 12 2020"
+                },
+                {
+                    "img": "img/entomology/20201205_130402c.webp",
+                    "date": "05 12 2020"
+                },
+                {
+                    "img": "img/entomology/20201211_201528c.webp",
+                    "date": "11 12 2020"
+                },
+                {
+                    "img": "img/entomology/20201220_152301c.webp",
+                    "date": "20 12 2020"
+                },
+                {
+                    "img": "img/entomology/20201222_153410c.webp",
+                    "date": "22 12 2020"
+                },
+                {
+                    "img": "img/entomology/20210107_093150c.webp",
+                    "date": "07 01 2021"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "link": "projet5.html",
+            "img": "img/plaid_manu_bleu/20210225_163956r.webp",
+            "date": "25 02 2021",
+            "type": "Aiguilles",
+            "titleProject": "Projet n°5 : Plaid Manu Bleu",
+            "subTitle": "Perros Manu",
+            "shortTitle": "Plaid Manu Bleu",
+            "caracteristic": "Aiguilles 4.5",
+            "duration": "01/2021 - 02/2021",
+            "wools": [
+                {
+                    "brand": "Katia Aran Merino",
+                    "link": "https://www.katia.com/FR/fils-automne-hiver-merinoaran-816.html"
+                }
+            ],
+            "colors": ["3x Beige très clair '10'", "3x Bleu ciel '68'", "3x Bleu jean '79'"],
+            "productionDocuments": [
+                {
+                    "documentName": "Mon Drive"
+                },
+                {
+                    "documentLink": "https://docs.google.com/document/d/e/2PACX-1vR_VPMeZp2kauL-gtPYVl3qJA-8aQijtLJupr4Ikv507OYpCw-Kccu0fNZw5p7MYpLED3foexGvpaGy/pub",
+                    "documentName": "Plaid Manu Bleu"
+                }
+            ],
+            "pictures" : [
+                {
+                    "img": "img/plaid_manu_bleu/20210112_100432c.webp",
+                    "date": "12 01 2021"
+                },
+                {
+                    "img": "img/plaid_manu_bleu/20210113_134552c.webp",
+                    "date": "13 01 2021"
+                },
+                {
+                    "img": "img/plaid_manu_bleu/20210115_104227c.webp",
+                    "date": "15 01 2021"
+                },
+                {
+                    "img": "img/plaid_manu_bleu/20210117_101347c.webp",
+                    "date": "17 01 2021"
+                },
+                {
+                    "img": "img/plaid_manu_bleu/20210127_144318(0)c.webp",
+                    "date": "27 01 2021"
+                },
+                {
+                    "img": "img/plaid_manu_bleu/20210206_132436c.webp",
+                    "date": "06 02 2021"
+                },
+                {
+                    "img": "img/plaid_manu_bleu/20210213_100442c.webp",
+                    "date": "13 02 2021"
+                },
+                {
+                    "img": "img/plaid_manu_bleu/20210225_115631c.webp",
+                    "date": "25 02 2021"
+                },
+                {
+                    "img": "img/plaid_manu_bleu/20210225_164018c.webp",
+                    "date": "25 02 2021"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "link": "projet6.html",
+            "img": "img/plaid_annie_rouge/20210519_112634r.webp",
+            "date": "19 05 2021",
+            "type": "Aiguilles",
+            "titleProject": "Projet n°6 : Plaid Annie Rouge",
+            "subTitle": "Perros Annie",
+            "shortTitle": "Plaid Annie Rouge",
+            "caracteristic": "Aiguilles 4.5",
+            "duration": "03/2021 - 05/2021",
+            "wools": [
+                {
+                    "brand": "Katia Aran Merino",
+                    "link": "https://www.katia.com/FR/fils-automne-hiver-merinoaran-816.html"
+                }
+            ],
+            "colors": ["5x Rouge rubis '21'", "5x Rouge '4'", "4x Grenat clair '51'", "4x Jaune '80'"],
+            "productionDocuments": [
+                {
+                    "documentName": "Mon Drive"
+                },
+                {
+                    "documentLink": "https://docs.google.com/document/d/e/2PACX-1vSdBmj4RFIlOfe9GJe8OMpIVqEQj350op2S5zQ1FBUJE9DBdRNXd2x0EspHf7HkKFH8OXzQep_bTCH3/pub",
+                    "documentName": "Plaid Annie Rouge"
+                }
+            ],
+            "pictures" : [
+                {
+                    "img": "img/plaid_annie_rouge/20210322_104148c.webp",
+                    "date": "22 03 2021"
+                },
+                {
+                    "img": "img/plaid_annie_rouge/20210326_073440c.webp",
+                    "date": "26 03 2021"
+                },
+                {
+                    "img": "img/plaid_annie_rouge/20210331_094947c.webp",
+                    "date": "31 03 2021"
+                },
+                {
+                    "img": "img/plaid_annie_rouge/20210402_153333c.webp",
+                    "date": "02 04 2021"
+                },
+                {
+                    "img": "img/plaid_annie_rouge/20210410_173903c.webp",
+                    "date": "10 04 2021"
+                },
+                {
+                    "img": "img/plaid_annie_rouge/20210413_114052c.webp",
+                    "date": "13 04 2021"
+                },
+                {
+                    "img": "img/plaid_annie_rouge/20210413_174654c.webp",
+                    "date": "13 04 2021"
+                },
+                {
+                    "img": "img/plaid_annie_rouge/20210415_092635c.webp",
+                    "date": "15 04 2021"
+                },
+                {
+                    "img": "img/plaid_annie_rouge/20210416_110214c.webp",
+                    "date": "16 04 2021"
+                },
+                {
+                    "img": "img/plaid_annie_rouge/20210417_192322c.webp",
+                    "date": "17 04 2021"
+                },
+                {
+                    "img": "img/plaid_annie_rouge/20210420_154103c.webp",
+                    "date": "20 04 2021"
+                },
+                {
+                    "img": "img/plaid_annie_rouge/20210426_193423c.webp",
+                    "date": "26 04 2021"
+                },
+                {
+                    "img": "img/plaid_annie_rouge/20210501_164930c.webp",
+                    "date": "01 05 2021"
+                },
+                {
+                    "img": "img/plaid_annie_rouge/20210508_155358c.webp",
+                    "date": "08 05 2021"
+                },
+                {
+                    "img": "img/plaid_annie_rouge/20210515_173923c.webp",
+                    "date": "15 05 2021"
+                },
+                {
+                    "img": "img/plaid_annie_rouge/20210517_091825c.webp",
+                    "date": "17 05 2021"
+                },
+                {
+                    "img": "img/plaid_annie_rouge/20210529_120806c.webp",
+                    "date": "29 05 2021"
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "link": "projet7.html",
+            "img": "img/baby_henry_blanket/20211201_182133c.webp",
+            "date": "01 12 2021",
+            "type": "Crochet",
+            "typeStyle": "crochet",
+            "titleProject": "Projet n°7 : Baby Henri Blanket",
+            "subTitle": "Avignon Marielle",
+            "shortTitle": "Baby Henri Blanket",
+            "caracteristic": "Hook 3",
+            "duration": "06/2021 - 08/2021",
+            "wools": [
+                {
+                    "brand": "Schachenmayer Catania 100% coton",
+                    "link": "https://lesciseauxmagiques.fr/laine/schachenmayr-catania-3405.html"
+                }
+            ],
+            "colors": ["6x Bleu Marine Jeans '164'", "6x Bleu Capri '384'", "4x Jaune Or '249'", "5x Gris '22021'", "3x Champagne Lin '248'"],
+            "productionDocuments": [
+                {
+                    "documentName": "Mon Drive et Baby Henri Bllanketa"
+                }
+            ],
+            "pictures" : [
+                {
+                    "img": "img/baby_henry_blanket/20210618_124901r.webp",
+                    "date": "19 06 2021"
+                },
+                {
+                    "img": "img/baby_henry_blanket/20210629_151732c.webp",
+                    "date": "29 06 2021"
+                },
+                {
+                    "img": "img/baby_henry_blanket/20210715_182052c.webp",
+                    "date": "15 07 2021"
+                },
+                {
+                    "img": "img/baby_henry_blanket/20210720_162800c.webp",
+                    "date": "20 07 2021"
+                },
+                {
+                    "img": "img/baby_henry_blanket/20210802_172838c.webp",
+                    "date": "02 08 2021"
+                },
+                {
+                    "img": "img/baby_henry_blanket/20210804_200122c.webp",
+                    "date": "04 08 2021"
+                },
+                {
+                    "img": "img/baby_henry_blanket/20210815_101543c.webp",
+                    "date": "15 08 2021"
+                }
+            ]
+        },
+        {
+            "link": "#",
+            "img": "img/inProgress.jpg",
+            "date": "En cours",
+            "type": "Inconnu",
+            "titleProject": "Projet n° : Titre",
+            "subTitle": "En cours"
+        }
+    ],
+    "links": [
+        {
+            "class": "header-links__ciseaux",
+            "link": "https://lesciseauxmagiques.fr/",
+            "img": "img/ciseauxMagiquesIcon.jpg",
+            "alt": "icône Les ciseaux magiques"
+        },
+        {
+            "class": "header-links__katia",
+            "link": "https://www.katia.com/FR/",
+            "img": "img/katiaIcon.png",
+            "alt": "icône Katia"
+        }
+    ]
+    
+}
